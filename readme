@@ -8,3 +8,5 @@ src/dyn_dnode_msg.c:345
 src/dyn_dnode_msg.c:581 
 src/dyn_dnode_response.c:49
 
+Scripts to drive the experiments are located under:
+dynomite-release-0.1-instrumented/scripts
