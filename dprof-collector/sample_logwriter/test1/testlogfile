@@ -1,0 +1,22 @@
+2014/12/06 19:31:42 This is a test log entry
+dellingr 2014/12/06 19:56:26.567425 This is a test log entry
+2014/12/06 21:22:44.868743  traceID:134020434 spanID:1597969999 parentID:1721070109 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:2068675587
+2014/12/06 21:22:44.868775  traceID:1237770961 spanID:220031192 parentID:2031484958 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:583324308
+2014/12/06 21:22:44.868778  traceID:958990240 spanID:413002649 parentID:4085734660 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:2515093031
+2014/12/06 21:22:44.868781  traceID:3125901622 spanID:2210689492 parentID:2092150027 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:2753975769
+2014/12/06 21:22:44.868783  traceID:2085489512 spanID:3561561371 parentID:627253638 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:2849475955
+2014/12/06 21:22:44.868786  traceID:379326753 spanID:3138750020 parentID:3062786623 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:1972897269
+2014/12/06 21:22:44.868788  traceID:752835466 spanID:1473417797 parentID:3319190120 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:1803800802
+2014/12/06 21:22:44.868791  traceID:1987365748 spanID:2959661531 parentID:3147061208 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:2707247675
+2014/12/06 21:22:44.868793  traceID:2034371071 spanID:2644629483 parentID:1512431819 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:4165004363
+2014/12/06 21:22:44.868795  traceID:919928731 spanID:4104515131 parentID:1523664372 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:4134798084
+2014/12/06 21:22:44.868798  traceID:1064433867 spanID:2432798076 parentID:4241154596 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:2978395423
+2014/12/06 21:22:44.868800  traceID:2107543484 spanID:2482585395 parentID:4131019631 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:424111158
+2014/12/06 21:22:44.868803  traceID:3163127046 spanID:379089909 parentID:1917614833 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:1478421305
+2014/12/06 21:22:44.868805  traceID:576174973 spanID:1864800808 parentID:3197016449 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:1882797899
+2014/12/06 21:22:44.868808  traceID:625045485 spanID:3738690577 parentID:1719199658 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:609209654
+2014/12/06 21:22:44.868810  traceID:1454009222 spanID:3729088941 parentID:1050259624 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:3201829434
+2014/12/06 21:22:44.868812  traceID:3850586288 spanID:2942559629 parentID:1080749213 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:3258183687
+2014/12/06 21:22:44.868815  traceID:2783629501 spanID:83968934 parentID:1938516009 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:916048627
+2014/12/06 21:22:44.868817  traceID:2524763920 spanID:116811174 parentID:637353343 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:265741433
+2014/12/06 21:22:44.868820  traceID:654045851 spanID:383667253 parentID:737360203 callerID:{dc:dc1;rack:22} calleeID:{dc:dc2:rack:rack} operationID:1257792698

@@ -1,0 +1,1554 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSERT	dyn_util.h	168;"	d
+ASSERT	dyn_util.h	178;"	d
+ASSERT	dyn_util.h	188;"	d
+C2G_InQ	dyn_ring_queue.h	/^} C2G_InQ;$/;"	v	typeref:struct:__anon2
+C2G_InQ_SIZE	dyn_ring_queue.h	11;"	d
+C2G_OutQ	dyn_ring_queue.h	/^} C2G_OutQ;$/;"	v	typeref:struct:__anon3
+C2G_OutQ_SIZE	dyn_ring_queue.h	12;"	d
+C2S_InQ	dyn_ring_queue.h	/^} C2S_InQ;$/;"	v	typeref:struct:__anon4
+C2S_InQ_SIZE	dyn_ring_queue.h	14;"	d
+C2S_OutQ	dyn_ring_queue.h	/^} C2S_OutQ;$/;"	v	typeref:struct:__anon5
+C2S_OutQ_SIZE	dyn_ring_queue.h	15;"	d
+CBUF_AdvancePopIdx	dyn_cbuf.h	140;"	d
+CBUF_AdvancePushIdx	dyn_cbuf.h	133;"	d
+CBUF_Error	dyn_cbuf.h	178;"	d
+CBUF_Get	dyn_cbuf.h	147;"	d
+CBUF_GetEnd	dyn_cbuf.h	154;"	d
+CBUF_GetLastEntryPtr	dyn_cbuf.h	113;"	d
+CBUF_GetPopEntryPtr	dyn_cbuf.h	160;"	d
+CBUF_GetPushEntryPtr	dyn_cbuf.h	123;"	d
+CBUF_Init	dyn_cbuf.h	86;"	d
+CBUF_IsEmpty	dyn_cbuf.h	166;"	d
+CBUF_IsFull	dyn_cbuf.h	172;"	d
+CBUF_Len	dyn_cbuf.h	93;"	d
+CBUF_Pop	dyn_cbuf.h	107;"	d
+CBUF_Push	dyn_cbuf.h	101;"	d
+CIRCLEQ_EMPTY	dyn_queue.h	717;"	d
+CIRCLEQ_ENTRY	dyn_queue.h	708;"	d
+CIRCLEQ_FIRST	dyn_queue.h	719;"	d
+CIRCLEQ_FOREACH	dyn_queue.h	721;"	d
+CIRCLEQ_FOREACH_REVERSE	dyn_queue.h	726;"	d
+CIRCLEQ_HEAD	dyn_queue.h	699;"	d
+CIRCLEQ_HEAD_INITIALIZER	dyn_queue.h	705;"	d
+CIRCLEQ_INIT	dyn_queue.h	731;"	d
+CIRCLEQ_INSERT_AFTER	dyn_queue.h	736;"	d
+CIRCLEQ_INSERT_BEFORE	dyn_queue.h	746;"	d
+CIRCLEQ_INSERT_HEAD	dyn_queue.h	756;"	d
+CIRCLEQ_INSERT_TAIL	dyn_queue.h	766;"	d
+CIRCLEQ_LAST	dyn_queue.h	776;"	d
+CIRCLEQ_NEXT	dyn_queue.h	778;"	d
+CIRCLEQ_PREV	dyn_queue.h	780;"	d
+CIRCLEQ_REMOVE	dyn_queue.h	782;"	d
+CONF_DEFAULT_ARGS	dyn_conf.h	40;"	d
+CONF_DEFAULT_AUTO_EJECT_HOSTS	dyn_conf.h	56;"	d
+CONF_DEFAULT_CLIENT_CONNECTIONS	dyn_conf.h	53;"	d
+CONF_DEFAULT_DC	dyn_conf.h	75;"	d
+CONF_DEFAULT_DIST	dyn_conf.h	50;"	d
+CONF_DEFAULT_DYN_CONNECTIONS	dyn_conf.h	65;"	d
+CONF_DEFAULT_DYN_READ_TIMEOUT	dyn_conf.h	63;"	d
+CONF_DEFAULT_DYN_WRITE_TIMEOUT	dyn_conf.h	64;"	d
+CONF_DEFAULT_GOS_INTERVAL	dyn_conf.h	67;"	d
+CONF_DEFAULT_HASH	dyn_conf.h	49;"	d
+CONF_DEFAULT_KETAMA_PORT	dyn_conf.h	60;"	d
+CONF_DEFAULT_LISTEN_BACKLOG	dyn_conf.h	52;"	d
+CONF_DEFAULT_PEERS	dyn_conf.h	68;"	d
+CONF_DEFAULT_POOL	dyn_conf.h	41;"	d
+CONF_DEFAULT_PRECONNECT	dyn_conf.h	55;"	d
+CONF_DEFAULT_REDIS	dyn_conf.h	54;"	d
+CONF_DEFAULT_REGION	dyn_conf.h	76;"	d
+CONF_DEFAULT_SECURE_SERVER_OPTION	dyn_conf.h	77;"	d
+CONF_DEFAULT_SEEDS	dyn_conf.h	62;"	d
+CONF_DEFAULT_SERVERS	dyn_conf.h	42;"	d
+CONF_DEFAULT_SERVER_CONNECTIONS	dyn_conf.h	59;"	d
+CONF_DEFAULT_SERVER_FAILURE_LIMIT	dyn_conf.h	58;"	d
+CONF_DEFAULT_SERVER_RETRY_TIMEOUT	dyn_conf.h	57;"	d
+CONF_DEFAULT_TIMEOUT	dyn_conf.h	51;"	d
+CONF_DEFAULT_VNODE_TOKENS	dyn_conf.h	66;"	d
+CONF_ERROR	dyn_conf.h	35;"	d
+CONF_MAX_DEPTH	dyn_conf.h	38;"	d
+CONF_OK	dyn_conf.h	34;"	d
+CONF_ROOT_DEPTH	dyn_conf.h	37;"	d
+CONF_STR_ALL	dyn_conf.h	73;"	d
+CONF_STR_DC	dyn_conf.h	72;"	d
+CONF_STR_NONE	dyn_conf.h	70;"	d
+CONF_STR_REGION	dyn_conf.h	71;"	d
+CONF_UNSET_DIST	dyn_conf.h	47;"	d
+CONF_UNSET_HASH	dyn_conf.h	46;"	d
+CONF_UNSET_NUM	dyn_conf.h	44;"	d
+CONF_UNSET_PTR	dyn_conf.h	45;"	d
+CR	dyn_util.h	29;"	d
+CRLF	dyn_util.h	30;"	d
+CRLF_LEN	dyn_util.h	31;"	d
+CRLF_STR	dyn_dnode_msg.c	/^static const struct string CRLF_STR = string(CRLF);$/;"	v	typeref:struct:string	file:
+DEFINE_ACTION	dyn_conf.c	32;"	d	file:
+DEFINE_ACTION	dyn_conf.c	37;"	d	file:
+DEFINE_ACTION	dyn_conf.c	39;"	d	file:
+DEFINE_ACTION	dyn_conf.c	44;"	d	file:
+DEFINE_ACTION	dyn_conf.c	46;"	d	file:
+DEFINE_ACTION	dyn_conf.c	51;"	d	file:
+DEFINE_ACTION	dyn_stats.c	40;"	d	file:
+DEFINE_ACTION	dyn_stats.c	48;"	d	file:
+DEFINE_ACTION	dyn_stats.c	50;"	d	file:
+DEFINE_ACTION	dyn_stats.c	58;"	d	file:
+DEFINE_ACTION	dyn_stats.h	147;"	d
+DEFINE_ACTION	dyn_stats.h	152;"	d
+DEFINE_ACTION	dyn_stats.h	154;"	d
+DEFINE_ACTION	dyn_stats.h	159;"	d
+DMSG_DEBUG	dyn_dnode_msg.h	/^    DMSG_DEBUG = 1,$/;"	e	enum:dmsg_type
+DMSG_PARSE_ERROR	dyn_dnode_msg.h	/^    DMSG_PARSE_ERROR,$/;"	e	enum:dmsg_type
+DMSG_REQ_MC_DELETE	dyn_dnode_msg.h	/^    DMSG_REQ_MC_DELETE,$/;"	e	enum:dmsg_type
+DMSG_REQ_MC_READ	dyn_dnode_msg.h	/^    DMSG_REQ_MC_READ,                       \/* memcache retrieval requests *\/$/;"	e	enum:dmsg_type
+DMSG_REQ_MC_WRITE	dyn_dnode_msg.h	/^    DMSG_REQ_MC_WRITE,$/;"	e	enum:dmsg_type
+DMSG_UNKNOWN	dyn_dnode_msg.h	/^    DMSG_UNKNOWN,$/;"	e	enum:dmsg_type
+DN_ALIGN	dyn_util.h	72;"	d
+DN_ALIGNMENT	dyn_util.h	71;"	d
+DN_ALIGN_PTR	dyn_util.h	73;"	d
+DN_ASSERT_LOG	dyn_core.h	39;"	d
+DN_ASSERT_PANIC	dyn_core.h	35;"	d
+DN_CONF_PATH	dynomite.c	36;"	d	file:
+DN_DEBUG_LOG	dyn_core.h	31;"	d
+DN_EAGAIN	dyn_core.h	69;"	d
+DN_ENOMEM	dyn_core.h	70;"	d
+DN_ERROR	dyn_core.h	68;"	d
+DN_HAVE_BACKTRACE	dyn_core.h	63;"	d
+DN_HAVE_EPOLL	dyn_core.h	49;"	d
+DN_HAVE_EVENT_PORTS	dyn_core.h	53;"	d
+DN_HAVE_KQUEUE	dyn_core.h	51;"	d
+DN_INET4_ADDRSTRLEN	dyn_util.h	42;"	d
+DN_INET6_ADDRSTRLEN	dyn_util.h	43;"	d
+DN_INET_ADDRSTRLEN	dyn_util.h	45;"	d
+DN_IOV_MAX	dyn_message.c	33;"	d	file:
+DN_IOV_MAX	dyn_message.c	35;"	d	file:
+DN_LITTLE_ENDIAN	dyn_core.h	59;"	d
+DN_LOG_DEFAULT	dynomite.c	38;"	d	file:
+DN_LOG_MAX	dynomite.c	40;"	d	file:
+DN_LOG_MIN	dynomite.c	39;"	d	file:
+DN_LOG_PATH	dynomite.c	41;"	d	file:
+DN_MAXHOSTNAMELEN	dyn_util.h	49;"	d
+DN_MBUF_MAX_SIZE	dynomite.c	51;"	d	file:
+DN_MBUF_MIN_SIZE	dynomite.c	50;"	d	file:
+DN_MBUF_SIZE	dynomite.c	49;"	d	file:
+DN_NOOPS	dyn_core.h	66;"	d
+DN_OK	dyn_core.h	67;"	d
+DN_PID_FILE	dynomite.c	47;"	d	file:
+DN_STATS	dyn_core.h	43;"	d
+DN_STATS	dyn_core.h	45;"	d
+DN_STATS_ADDR	dynomite.c	44;"	d	file:
+DN_STATS_INTERVAL	dynomite.c	45;"	d	file:
+DN_STATS_PORT	dynomite.c	43;"	d	file:
+DN_UINT16_MAXLEN	dyn_util.h	62;"	d
+DN_UINT32_MAXLEN	dyn_util.h	63;"	d
+DN_UINT64_MAXLEN	dyn_util.h	64;"	d
+DN_UINT8_MAXLEN	dyn_util.h	61;"	d
+DN_UINTMAX_MAXLEN	dyn_util.h	65;"	d
+DN_UNIX_ADDRSTRLEN	dyn_util.h	46;"	d
+DOWN	dyn_core.h	/^	DOWN,$/;"	e	enum:dyn_state
+DYN_CBUF_H	dyn_cbuf.h	78;"	d
+DYN_CRLF_BEFORE_DONE	dyn_dnode_msg.c	/^        DYN_CRLF_BEFORE_DONE,$/;"	e	enum:__anon1	file:
+DYN_CRLF_BEFORE_STAR	dyn_dnode_msg.c	/^        DYN_CRLF_BEFORE_STAR,$/;"	e	enum:__anon1	file:
+DYN_DATA	dyn_dnode_msg.c	/^        DYN_DATA,$/;"	e	enum:__anon1	file:
+DYN_DATA_LEN	dyn_dnode_msg.c	/^        DYN_DATA_LEN,$/;"	e	enum:__anon1	file:
+DYN_DONE	dyn_dnode_msg.c	/^        DYN_DONE$/;"	e	enum:__anon1	file:
+DYN_GOSSIP_H_	dyn_gossip.h	3;"	d
+DYN_MAGIC_NUMBER	dyn_dnode_msg.c	/^        DYN_MAGIC_NUMBER = 1000,$/;"	e	enum:__anon1	file:
+DYN_MSG_ID	dyn_dnode_msg.c	/^        DYN_MSG_ID,$/;"	e	enum:__anon1	file:
+DYN_SPACES_BEFORE_MSG_ID	dyn_dnode_msg.c	/^        DYN_SPACES_BEFORE_MSG_ID,$/;"	e	enum:__anon1	file:
+DYN_SPACES_BEFORE_TYPE_ID	dyn_dnode_msg.c	/^        DYN_SPACES_BEFORE_TYPE_ID,$/;"	e	enum:__anon1	file:
+DYN_SPACES_BEFORE_VERSION	dyn_dnode_msg.c	/^        DYN_SPACES_BEFORE_VERSION,$/;"	e	enum:__anon1	file:
+DYN_SPACE_BEFORE_DATA	dyn_dnode_msg.c	/^        DYN_SPACE_BEFORE_DATA,$/;"	e	enum:__anon1	file:
+DYN_STAR	dyn_dnode_msg.c	/^        DYN_STAR,$/;"	e	enum:__anon1	file:
+DYN_START	dyn_dnode_msg.c	/^        DYN_START,$/;"	e	enum:__anon1	file:
+DYN_TYPE_ID	dyn_dnode_msg.c	/^        DYN_TYPE_ID,$/;"	e	enum:__anon1	file:
+DYN_VERSION	dyn_dnode_msg.c	/^        DYN_VERSION,$/;"	e	enum:__anon1	file:
+EXITING	dyn_core.h	/^	EXITING,$/;"	e	enum:dyn_state
+FLORIDA_PROVIDER	dyn_gossip.h	14;"	d
+GOSSIP_DIGEST_ACK	dyn_dnode_msg.h	/^    GOSSIP_DIGEST_ACK,$/;"	e	enum:dmsg_type
+GOSSIP_DIGEST_ACK2	dyn_dnode_msg.h	/^    GOSSIP_DIGEST_ACK2,$/;"	e	enum:dmsg_type
+GOSSIP_DIGEST_SYN	dyn_dnode_msg.h	/^    GOSSIP_DIGEST_SYN,$/;"	e	enum:dmsg_type
+GOSSIP_PING	dyn_dnode_msg.h	/^    GOSSIP_PING,$/;"	e	enum:dmsg_type
+GOSSIP_PING_REPLY	dyn_dnode_msg.h	/^    GOSSIP_PING_REPLY,$/;"	e	enum:dmsg_type
+GOSSIP_SHUTDOWN	dyn_dnode_msg.h	/^    GOSSIP_SHUTDOWN$/;"	e	enum:dmsg_type
+GOS_ERROR	dyn_gossip.h	11;"	d
+GOS_NOOPS	dyn_gossip.h	9;"	d
+GOS_OK	dyn_gossip.h	10;"	d
+INIT	dyn_core.h	/^	INIT,$/;"	e	enum:dyn_state
+JOINING	dyn_core.h	/^	JOINING,$/;"	e	enum:dyn_state
+LEAVING	dyn_core.h	/^	LEAVING,$/;"	e	enum:dyn_state
+LF	dyn_util.h	28;"	d
+LIST_EMPTY	dyn_queue.h	437;"	d
+LIST_ENTRY	dyn_queue.h	397;"	d
+LIST_FIRST	dyn_queue.h	439;"	d
+LIST_FOREACH	dyn_queue.h	441;"	d
+LIST_FOREACH_SAFE	dyn_queue.h	446;"	d
+LIST_HEAD	dyn_queue.h	389;"	d
+LIST_HEAD_INITIALIZER	dyn_queue.h	394;"	d
+LIST_INIT	dyn_queue.h	451;"	d
+LIST_INSERT_AFTER	dyn_queue.h	455;"	d
+LIST_INSERT_BEFORE	dyn_queue.h	464;"	d
+LIST_INSERT_HEAD	dyn_queue.h	472;"	d
+LIST_NEXT	dyn_queue.h	480;"	d
+LIST_REMOVE	dyn_queue.h	482;"	d
+LIST_SWAP	dyn_queue.h	495;"	d
+LOG_ALERT	dyn_log.h	34;"	d
+LOG_CRIT	dyn_log.h	35;"	d
+LOG_DEBUG	dyn_log.h	40;"	d
+LOG_EMERG	dyn_log.h	33;"	d
+LOG_ERR	dyn_log.h	36;"	d
+LOG_INFO	dyn_log.h	39;"	d
+LOG_MAX_LEN	dyn_log.h	46;"	d
+LOG_NOTICE	dyn_log.h	38;"	d
+LOG_PVERB	dyn_log.h	44;"	d
+LOG_VERB	dyn_log.h	41;"	d
+LOG_VVERB	dyn_log.h	42;"	d
+LOG_VVVERB	dyn_log.h	43;"	d
+LOG_WARN	dyn_log.h	37;"	d
+MAGIC_NUMBER	dyn_dnode_msg.c	/^static uint32_t MAGIC_NUMBER = 2014;$/;"	v	file:
+MAGIC_STR	dyn_dnode_msg.c	/^static const struct string MAGIC_STR = string("2014 ");$/;"	v	typeref:struct:string	file:
+MAX	dyn_util.h	36;"	d
+MAX_HTTP_HEADER_SIZE	dyn_stats.c	60;"	d	file:
+MBUF_HSIZE	dyn_mbuf.h	45;"	d
+MBUF_MAGIC	dyn_mbuf.h	41;"	d
+MBUF_MAX_SIZE	dyn_mbuf.h	43;"	d
+MBUF_MIN_SIZE	dyn_mbuf.h	42;"	d
+MBUF_SIZE	dyn_mbuf.h	44;"	d
+MIN	dyn_util.h	35;"	d
+MSG_OOM_ERROR	dyn_message.h	/^    MSG_OOM_ERROR$/;"	e	enum:msg_parse_result
+MSG_PARSE_AGAIN	dyn_message.h	/^    MSG_PARSE_AGAIN,                      \/* incomplete -> parse again *\/$/;"	e	enum:msg_parse_result
+MSG_PARSE_ERROR	dyn_message.h	/^    MSG_PARSE_ERROR,                      \/* parsing error *\/$/;"	e	enum:msg_parse_result
+MSG_PARSE_FRAGMENT	dyn_message.h	/^    MSG_PARSE_FRAGMENT,                   \/* multi-vector request -> fragment *\/$/;"	e	enum:msg_parse_result
+MSG_PARSE_OK	dyn_message.h	/^    MSG_PARSE_OK,                         \/* parsing ok *\/$/;"	e	enum:msg_parse_result
+MSG_PARSE_REPAIR	dyn_message.h	/^    MSG_PARSE_REPAIR,                     \/* more to parse -> repair parsed & unparsed data *\/$/;"	e	enum:msg_parse_result
+MSG_REG_REDIS_INFO	dyn_message.h	/^    MSG_REG_REDIS_INFO,$/;"	e	enum:msg_type
+MSG_REG_REDIS_KEYS	dyn_message.h	/^    MSG_REG_REDIS_KEYS,$/;"	e	enum:msg_type
+MSG_REQ_MC_ADD	dyn_message.h	/^    MSG_REQ_MC_ADD,$/;"	e	enum:msg_type
+MSG_REQ_MC_APPEND	dyn_message.h	/^    MSG_REQ_MC_APPEND,$/;"	e	enum:msg_type
+MSG_REQ_MC_CAS	dyn_message.h	/^    MSG_REQ_MC_CAS,                       \/* memcache cas request and storage request *\/$/;"	e	enum:msg_type
+MSG_REQ_MC_DECR	dyn_message.h	/^    MSG_REQ_MC_DECR,$/;"	e	enum:msg_type
+MSG_REQ_MC_DELETE	dyn_message.h	/^    MSG_REQ_MC_DELETE,                    \/* memcache delete request *\/$/;"	e	enum:msg_type
+MSG_REQ_MC_GET	dyn_message.h	/^    MSG_REQ_MC_GET,                       \/* memcache retrieval requests *\/$/;"	e	enum:msg_type
+MSG_REQ_MC_GETS	dyn_message.h	/^    MSG_REQ_MC_GETS,$/;"	e	enum:msg_type
+MSG_REQ_MC_INCR	dyn_message.h	/^    MSG_REQ_MC_INCR,                      \/* memcache arithmetic request *\/$/;"	e	enum:msg_type
+MSG_REQ_MC_PREPEND	dyn_message.h	/^    MSG_REQ_MC_PREPEND,$/;"	e	enum:msg_type
+MSG_REQ_MC_QUIT	dyn_message.h	/^    MSG_REQ_MC_QUIT,                      \/* memcache quit request *\/$/;"	e	enum:msg_type
+MSG_REQ_MC_REPLACE	dyn_message.h	/^    MSG_REQ_MC_REPLACE,$/;"	e	enum:msg_type
+MSG_REQ_MC_SET	dyn_message.h	/^    MSG_REQ_MC_SET,                       \/* memcache storage request *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_APPEND	dyn_message.h	/^    MSG_REQ_REDIS_APPEND,                 \/* redis requests - string *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_BITCOUNT	dyn_message.h	/^    MSG_REQ_REDIS_BITCOUNT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_DECR	dyn_message.h	/^    MSG_REQ_REDIS_DECR,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_DECRBY	dyn_message.h	/^    MSG_REQ_REDIS_DECRBY,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_DEL	dyn_message.h	/^    MSG_REQ_REDIS_DEL,                    \/* redis commands - keys *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_DUMP	dyn_message.h	/^    MSG_REQ_REDIS_DUMP,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_EVAL	dyn_message.h	/^    MSG_REQ_REDIS_EVAL,                   \/* redis requests - eval *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_EVALSHA	dyn_message.h	/^    MSG_REQ_REDIS_EVALSHA,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_EXISTS	dyn_message.h	/^    MSG_REQ_REDIS_EXISTS,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_EXPIRE	dyn_message.h	/^    MSG_REQ_REDIS_EXPIRE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_EXPIREAT	dyn_message.h	/^    MSG_REQ_REDIS_EXPIREAT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_GET	dyn_message.h	/^    MSG_REQ_REDIS_GET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_GETBIT	dyn_message.h	/^    MSG_REQ_REDIS_GETBIT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_GETRANGE	dyn_message.h	/^    MSG_REQ_REDIS_GETRANGE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_GETSET	dyn_message.h	/^    MSG_REQ_REDIS_GETSET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HDEL	dyn_message.h	/^    MSG_REQ_REDIS_HDEL,                   \/* redis requests - hashes *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HEXISTS	dyn_message.h	/^    MSG_REQ_REDIS_HEXISTS,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HGET	dyn_message.h	/^    MSG_REQ_REDIS_HGET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HGETALL	dyn_message.h	/^    MSG_REQ_REDIS_HGETALL,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HINCRBY	dyn_message.h	/^    MSG_REQ_REDIS_HINCRBY,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HINCRBYFLOAT	dyn_message.h	/^    MSG_REQ_REDIS_HINCRBYFLOAT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HKEYS	dyn_message.h	/^    MSG_REQ_REDIS_HKEYS,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HLEN	dyn_message.h	/^    MSG_REQ_REDIS_HLEN,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HMGET	dyn_message.h	/^    MSG_REQ_REDIS_HMGET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HMSET	dyn_message.h	/^    MSG_REQ_REDIS_HMSET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HSET	dyn_message.h	/^    MSG_REQ_REDIS_HSET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HSETNX	dyn_message.h	/^    MSG_REQ_REDIS_HSETNX,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_HVALS	dyn_message.h	/^    MSG_REQ_REDIS_HVALS,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_INCR	dyn_message.h	/^    MSG_REQ_REDIS_INCR,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_INCRBY	dyn_message.h	/^    MSG_REQ_REDIS_INCRBY,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_INCRBYFLOAT	dyn_message.h	/^    MSG_REQ_REDIS_INCRBYFLOAT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LINDEX	dyn_message.h	/^    MSG_REQ_REDIS_LINDEX,                 \/* redis requests - lists *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LINSERT	dyn_message.h	/^    MSG_REQ_REDIS_LINSERT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LLEN	dyn_message.h	/^    MSG_REQ_REDIS_LLEN,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LPOP	dyn_message.h	/^    MSG_REQ_REDIS_LPOP,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LPUSH	dyn_message.h	/^    MSG_REQ_REDIS_LPUSH,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LPUSHX	dyn_message.h	/^    MSG_REQ_REDIS_LPUSHX,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LRANGE	dyn_message.h	/^    MSG_REQ_REDIS_LRANGE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LREM	dyn_message.h	/^    MSG_REQ_REDIS_LREM,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LSET	dyn_message.h	/^    MSG_REQ_REDIS_LSET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_LTRIM	dyn_message.h	/^    MSG_REQ_REDIS_LTRIM,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_MGET	dyn_message.h	/^    MSG_REQ_REDIS_MGET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_PERSIST	dyn_message.h	/^    MSG_REQ_REDIS_PERSIST,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_PEXPIRE	dyn_message.h	/^    MSG_REQ_REDIS_PEXPIRE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_PEXPIREAT	dyn_message.h	/^    MSG_REQ_REDIS_PEXPIREAT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_PING	dyn_message.h	/^    MSG_REQ_REDIS_PING,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_PSETEX	dyn_message.h	/^    MSG_REQ_REDIS_PSETEX,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_PTTL	dyn_message.h	/^    MSG_REQ_REDIS_PTTL,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_RESTORE	dyn_message.h	/^    MSG_REQ_REDIS_RESTORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_RPOP	dyn_message.h	/^    MSG_REQ_REDIS_RPOP,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_RPOPLPUSH	dyn_message.h	/^    MSG_REQ_REDIS_RPOPLPUSH,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_RPUSH	dyn_message.h	/^    MSG_REQ_REDIS_RPUSH,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_RPUSHX	dyn_message.h	/^    MSG_REQ_REDIS_RPUSHX,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SADD	dyn_message.h	/^    MSG_REQ_REDIS_SADD,                   \/* redis requests - sets *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SCARD	dyn_message.h	/^    MSG_REQ_REDIS_SCARD,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SDIFF	dyn_message.h	/^    MSG_REQ_REDIS_SDIFF,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SDIFFSTORE	dyn_message.h	/^    MSG_REQ_REDIS_SDIFFSTORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SET	dyn_message.h	/^    MSG_REQ_REDIS_SET,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SETBIT	dyn_message.h	/^    MSG_REQ_REDIS_SETBIT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SETEX	dyn_message.h	/^    MSG_REQ_REDIS_SETEX,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SETNX	dyn_message.h	/^    MSG_REQ_REDIS_SETNX,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SETRANGE	dyn_message.h	/^    MSG_REQ_REDIS_SETRANGE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SINTER	dyn_message.h	/^    MSG_REQ_REDIS_SINTER,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SINTERSTORE	dyn_message.h	/^    MSG_REQ_REDIS_SINTERSTORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SISMEMBER	dyn_message.h	/^    MSG_REQ_REDIS_SISMEMBER,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SLAVEOF	dyn_message.h	/^    MSG_REQ_REDIS_SLAVEOF,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SMEMBERS	dyn_message.h	/^    MSG_REQ_REDIS_SMEMBERS,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SMOVE	dyn_message.h	/^    MSG_REQ_REDIS_SMOVE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SPOP	dyn_message.h	/^    MSG_REQ_REDIS_SPOP,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SRANDMEMBER	dyn_message.h	/^    MSG_REQ_REDIS_SRANDMEMBER,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SREM	dyn_message.h	/^    MSG_REQ_REDIS_SREM,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_STRLEN	dyn_message.h	/^    MSG_REQ_REDIS_STRLEN,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SUNION	dyn_message.h	/^    MSG_REQ_REDIS_SUNION,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_SUNIONSTORE	dyn_message.h	/^    MSG_REQ_REDIS_SUNIONSTORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_TTL	dyn_message.h	/^    MSG_REQ_REDIS_TTL,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_TYPE	dyn_message.h	/^    MSG_REQ_REDIS_TYPE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZADD	dyn_message.h	/^    MSG_REQ_REDIS_ZADD,                   \/* redis requests - sorted sets *\/$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZCARD	dyn_message.h	/^    MSG_REQ_REDIS_ZCARD,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZCOUNT	dyn_message.h	/^    MSG_REQ_REDIS_ZCOUNT,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZINCRBY	dyn_message.h	/^    MSG_REQ_REDIS_ZINCRBY,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZINTERSTORE	dyn_message.h	/^    MSG_REQ_REDIS_ZINTERSTORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZRANGE	dyn_message.h	/^    MSG_REQ_REDIS_ZRANGE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZRANGEBYSCORE	dyn_message.h	/^    MSG_REQ_REDIS_ZRANGEBYSCORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZRANK	dyn_message.h	/^    MSG_REQ_REDIS_ZRANK,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZREM	dyn_message.h	/^    MSG_REQ_REDIS_ZREM,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZREMRANGEBYRANK	dyn_message.h	/^    MSG_REQ_REDIS_ZREMRANGEBYRANK,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZREMRANGEBYSCORE	dyn_message.h	/^    MSG_REQ_REDIS_ZREMRANGEBYSCORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZREVRANGE	dyn_message.h	/^    MSG_REQ_REDIS_ZREVRANGE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZREVRANGEBYSCORE	dyn_message.h	/^    MSG_REQ_REDIS_ZREVRANGEBYSCORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZREVRANK	dyn_message.h	/^    MSG_REQ_REDIS_ZREVRANK,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZSCORE	dyn_message.h	/^    MSG_REQ_REDIS_ZSCORE,$/;"	e	enum:msg_type
+MSG_REQ_REDIS_ZUNIONSTORE	dyn_message.h	/^    MSG_REQ_REDIS_ZUNIONSTORE,$/;"	e	enum:msg_type
+MSG_RSP_MC_CLIENT_ERROR	dyn_message.h	/^    MSG_RSP_MC_CLIENT_ERROR,$/;"	e	enum:msg_type
+MSG_RSP_MC_DELETED	dyn_message.h	/^    MSG_RSP_MC_DELETED,                   \/* memcache delete response *\/$/;"	e	enum:msg_type
+MSG_RSP_MC_END	dyn_message.h	/^    MSG_RSP_MC_END,$/;"	e	enum:msg_type
+MSG_RSP_MC_ERROR	dyn_message.h	/^    MSG_RSP_MC_ERROR,                     \/* memcache error responses *\/$/;"	e	enum:msg_type
+MSG_RSP_MC_EXISTS	dyn_message.h	/^    MSG_RSP_MC_EXISTS,$/;"	e	enum:msg_type
+MSG_RSP_MC_NOT_FOUND	dyn_message.h	/^    MSG_RSP_MC_NOT_FOUND,$/;"	e	enum:msg_type
+MSG_RSP_MC_NOT_STORED	dyn_message.h	/^    MSG_RSP_MC_NOT_STORED,$/;"	e	enum:msg_type
+MSG_RSP_MC_NUM	dyn_message.h	/^    MSG_RSP_MC_NUM,                       \/* memcache arithmetic response *\/$/;"	e	enum:msg_type
+MSG_RSP_MC_SERVER_ERROR	dyn_message.h	/^    MSG_RSP_MC_SERVER_ERROR,$/;"	e	enum:msg_type
+MSG_RSP_MC_STORED	dyn_message.h	/^    MSG_RSP_MC_STORED,                    \/* memcache cas and storage response *\/$/;"	e	enum:msg_type
+MSG_RSP_MC_VALUE	dyn_message.h	/^    MSG_RSP_MC_VALUE,$/;"	e	enum:msg_type
+MSG_RSP_REDIS_BULK	dyn_message.h	/^    MSG_RSP_REDIS_BULK,$/;"	e	enum:msg_type
+MSG_RSP_REDIS_ERROR	dyn_message.h	/^    MSG_RSP_REDIS_ERROR,$/;"	e	enum:msg_type
+MSG_RSP_REDIS_INTEGER	dyn_message.h	/^    MSG_RSP_REDIS_INTEGER,$/;"	e	enum:msg_type
+MSG_RSP_REDIS_MULTIBULK	dyn_message.h	/^    MSG_RSP_REDIS_MULTIBULK,$/;"	e	enum:msg_type
+MSG_RSP_REDIS_STATUS	dyn_message.h	/^    MSG_RSP_REDIS_STATUS,                 \/* redis response *\/$/;"	e	enum:msg_type
+MSG_SENTINEL	dyn_message.h	/^    MSG_SENTINEL$/;"	e	enum:msg_type
+MSG_UNKNOWN	dyn_message.h	/^    MSG_UNKNOWN,$/;"	e	enum:msg_type
+NELEMS	dyn_util.h	33;"	d
+NORMAL	dyn_core.h	/^	NORMAL,$/;"	e	enum:dyn_state
+NOT_REACHED	dyn_util.h	174;"	d
+NOT_REACHED	dyn_util.h	184;"	d
+NOT_REACHED	dyn_util.h	190;"	d
+PEER_CONNECTION_REFUSE	dyn_message.h	/^    PEER_CONNECTION_REFUSE,$/;"	e	enum:dyn_error
+QMD_LIST_CHECK_HEAD	dyn_queue.h	409;"	d
+QMD_LIST_CHECK_HEAD	dyn_queue.h	431;"	d
+QMD_LIST_CHECK_NEXT	dyn_queue.h	416;"	d
+QMD_LIST_CHECK_NEXT	dyn_queue.h	432;"	d
+QMD_LIST_CHECK_PREV	dyn_queue.h	423;"	d
+QMD_LIST_CHECK_PREV	dyn_queue.h	433;"	d
+QMD_SAVELINK	dyn_queue.h	144;"	d
+QMD_SAVELINK	dyn_queue.h	152;"	d
+QMD_TAILQ_CHECK_HEAD	dyn_queue.h	530;"	d
+QMD_TAILQ_CHECK_HEAD	dyn_queue.h	558;"	d
+QMD_TAILQ_CHECK_NEXT	dyn_queue.h	543;"	d
+QMD_TAILQ_CHECK_NEXT	dyn_queue.h	560;"	d
+QMD_TAILQ_CHECK_PREV	dyn_queue.h	550;"	d
+QMD_TAILQ_CHECK_PREV	dyn_queue.h	561;"	d
+QMD_TAILQ_CHECK_TAIL	dyn_queue.h	537;"	d
+QMD_TAILQ_CHECK_TAIL	dyn_queue.h	559;"	d
+QMD_TRACE_ELEM	dyn_queue.h	176;"	d
+QMD_TRACE_ELEM	dyn_queue.h	185;"	d
+QMD_TRACE_HEAD	dyn_queue.h	169;"	d
+QMD_TRACE_HEAD	dyn_queue.h	186;"	d
+QUEUE_MACRO_ASSERT	dyn_queue.h	139;"	d
+QUEUE_MACRO_SCRUB	dyn_queue.h	135;"	d
+QUEUE_MACRO_TRACE	dyn_queue.h	138;"	d
+REMOVED	dyn_core.h	/^	REMOVED,$/;"	e	enum:dyn_state
+RESUMING	dyn_core.h	/^	RESUMING,$/;"	e	enum:dyn_state
+SIMPLE_PROVIDER	dyn_gossip.h	13;"	d
+SLIST_EMPTY	dyn_queue.h	210;"	d
+SLIST_ENTRY	dyn_queue.h	202;"	d
+SLIST_FIRST	dyn_queue.h	212;"	d
+SLIST_FOREACH	dyn_queue.h	214;"	d
+SLIST_FOREACH_PREVPTR	dyn_queue.h	224;"	d
+SLIST_FOREACH_SAFE	dyn_queue.h	219;"	d
+SLIST_HEAD	dyn_queue.h	194;"	d
+SLIST_HEAD_INITIALIZER	dyn_queue.h	199;"	d
+SLIST_INIT	dyn_queue.h	229;"	d
+SLIST_INSERT_AFTER	dyn_queue.h	233;"	d
+SLIST_INSERT_HEAD	dyn_queue.h	238;"	d
+SLIST_NEXT	dyn_queue.h	243;"	d
+SLIST_REMOVE	dyn_queue.h	245;"	d
+SLIST_REMOVE_AFTER	dyn_queue.h	257;"	d
+SLIST_REMOVE_HEAD	dyn_queue.h	263;"	d
+SQUARE	dyn_util.h	38;"	d
+STAILQ_CONCAT	dyn_queue.h	289;"	d
+STAILQ_EMPTY	dyn_queue.h	297;"	d
+STAILQ_ENTRY	dyn_queue.h	281;"	d
+STAILQ_FIRST	dyn_queue.h	299;"	d
+STAILQ_FOREACH	dyn_queue.h	301;"	d
+STAILQ_FOREACH_SAFE	dyn_queue.h	306;"	d
+STAILQ_HEAD	dyn_queue.h	272;"	d
+STAILQ_HEAD_INITIALIZER	dyn_queue.h	278;"	d
+STAILQ_INIT	dyn_queue.h	311;"	d
+STAILQ_INSERT_AFTER	dyn_queue.h	316;"	d
+STAILQ_INSERT_HEAD	dyn_queue.h	322;"	d
+STAILQ_INSERT_TAIL	dyn_queue.h	328;"	d
+STAILQ_LAST	dyn_queue.h	334;"	d
+STAILQ_NEXT	dyn_queue.h	340;"	d
+STAILQ_REMOVE	dyn_queue.h	342;"	d
+STAILQ_REMOVE_AFTER	dyn_queue.h	363;"	d
+STAILQ_REMOVE_HEAD	dyn_queue.h	354;"	d
+STAILQ_SWAP	dyn_queue.h	372;"	d
+STANDBY	dyn_core.h	/^	STANDBY,$/;"	e	enum:dyn_state
+STATS_ADDR	dyn_stats.h	70;"	d
+STATS_BOOTSTRAPING	dyn_stats.h	/^    STATS_BOOTSTRAPING,$/;"	e	enum:stats_cmd
+STATS_COUNTER	dyn_stats.h	/^    STATS_COUNTER,    \/* monotonic accumulator *\/$/;"	e	enum:stats_type
+STATS_DESCRIBE	dyn_stats.h	/^    STATS_DESCRIBE,$/;"	e	enum:stats_cmd
+STATS_DNODE_CODEC	dyn_stats.h	58;"	d
+STATS_GAUGE	dyn_stats.h	/^    STATS_GAUGE,      \/* non-monotonic accumulator *\/$/;"	e	enum:stats_type
+STATS_INFO	dyn_stats.h	/^    STATS_INFO,$/;"	e	enum:stats_cmd
+STATS_INTERVAL	dyn_stats.h	72;"	d
+STATS_INVALID	dyn_stats.h	/^    STATS_INVALID,$/;"	e	enum:stats_type
+STATS_LEAVING	dyn_stats.h	/^    STATS_LEAVING,$/;"	e	enum:stats_cmd
+STATS_NORMAL	dyn_stats.h	/^    STATS_NORMAL,$/;"	e	enum:stats_cmd
+STATS_PING	dyn_stats.h	/^    STATS_PING,$/;"	e	enum:stats_cmd
+STATS_POOL_CODEC	dyn_stats.h	/^    STATS_POOL_CODEC(DEFINE_ACTION)$/;"	e	enum:stats_pool_field
+STATS_POOL_CODEC	dyn_stats.h	28;"	d
+STATS_POOL_NFIELD	dyn_stats.h	/^    STATS_POOL_NFIELD$/;"	e	enum:stats_pool_field
+STATS_PORT	dyn_stats.h	71;"	d
+STATS_RESUMING	dyn_stats.h	/^    STATS_RESUMING,$/;"	e	enum:stats_cmd
+STATS_SENTINEL	dyn_stats.h	/^    STATS_SENTINEL$/;"	e	enum:stats_type
+STATS_SERVER_CODEC	dyn_stats.h	/^    STATS_SERVER_CODEC(DEFINE_ACTION)$/;"	e	enum:stats_server_field
+STATS_SERVER_CODEC	dyn_stats.h	40;"	d
+STATS_SERVER_NFIELD	dyn_stats.h	/^    STATS_SERVER_NFIELD$/;"	e	enum:stats_server_field
+STATS_STANDBY	dyn_stats.h	/^    STATS_STANDBY,$/;"	e	enum:stats_cmd
+STATS_STRING	dyn_stats.h	/^    STATS_STRING,$/;"	e	enum:stats_type
+STATS_TIMESTAMP	dyn_stats.h	/^    STATS_TIMESTAMP,  \/* monotonic timestamp (in nsec) *\/$/;"	e	enum:stats_type
+STATS_UNKNOWN	dyn_stats.h	/^    STATS_UNKNOWN$/;"	e	enum:stats_cmd
+STATS_WRITES_ONLY	dyn_stats.h	/^    STATS_WRITES_ONLY,$/;"	e	enum:stats_cmd
+STDDEV	dyn_util.h	40;"	d
+STORAGE_CONNECTION_REFUSE	dyn_message.h	/^    STORAGE_CONNECTION_REFUSE$/;"	e	enum:dyn_error
+SUSPENDING	dyn_core.h	/^	SUSPENDING,$/;"	e	enum:dyn_state
+TAILQ_CONCAT	dyn_queue.h	565;"	d
+TAILQ_EMPTY	dyn_queue.h	576;"	d
+TAILQ_ENTRY	dyn_queue.h	518;"	d
+TAILQ_FIRST	dyn_queue.h	578;"	d
+TAILQ_FOREACH	dyn_queue.h	580;"	d
+TAILQ_FOREACH_REVERSE	dyn_queue.h	590;"	d
+TAILQ_FOREACH_REVERSE_SAFE	dyn_queue.h	595;"	d
+TAILQ_FOREACH_SAFE	dyn_queue.h	585;"	d
+TAILQ_HEAD	dyn_queue.h	508;"	d
+TAILQ_HEAD_INITIALIZER	dyn_queue.h	515;"	d
+TAILQ_INIT	dyn_queue.h	600;"	d
+TAILQ_INSERT_AFTER	dyn_queue.h	606;"	d
+TAILQ_INSERT_BEFORE	dyn_queue.h	620;"	d
+TAILQ_INSERT_HEAD	dyn_queue.h	630;"	d
+TAILQ_INSERT_TAIL	dyn_queue.h	643;"	d
+TAILQ_LAST	dyn_queue.h	653;"	d
+TAILQ_NEXT	dyn_queue.h	656;"	d
+TAILQ_PREV	dyn_queue.h	658;"	d
+TAILQ_REMOVE	dyn_queue.h	661;"	d
+TAILQ_SWAP	dyn_queue.h	679;"	d
+TRACEBUF	dyn_queue.h	167;"	d
+TRACEBUF	dyn_queue.h	187;"	d
+TRASHIT	dyn_queue.h	146;"	d
+TRASHIT	dyn_queue.h	153;"	d
+UNKNOWN	dyn_core.h	/^	UNKNOWN$/;"	e	enum:dyn_state
+UNKNOWN_ERROR	dyn_message.h	/^    UNKNOWN_ERROR,$/;"	e	enum:dyn_error
+VAR	dyn_util.h	39;"	d
+VERSION_10	dyn_dnode_msg.h	/^    VERSION_10 = 1$/;"	e	enum:dmsg_version
+WRITES_ONLY	dyn_core.h	/^	WRITES_ONLY,$/;"	e	enum:dyn_state
+_DYN_ARRAY_H_	dyn_array.h	24;"	d
+_DYN_CLIENT_H_	dyn_client.h	24;"	d
+_DYN_CONF_H_	dyn_conf.h	24;"	d
+_DYN_CONNECTION_H_	dyn_connection.h	24;"	d
+_DYN_CORE_H_	dyn_core.h	24;"	d
+_DYN_DNODE_CLIENT_H_	dyn_dnode_client.h	7;"	d
+_DYN_DNODE_MSG_H_	dyn_dnode_msg.h	7;"	d
+_DYN_DNODE_PEER_H_	dyn_dnode_peer.h	7;"	d
+_DYN_DNODE_SERVER_H_	dyn_dnode_server.h	7;"	d
+_DYN_LOG_H_	dyn_log.h	24;"	d
+_DYN_MBUF_H_	dyn_mbuf.h	24;"	d
+_DYN_MESSAGE_H_	dyn_message.h	24;"	d
+_DYN_PROXY_H_	dyn_proxy.h	24;"	d
+_DYN_QUEUE_H_	dyn_queue.h	56;"	d
+_DYN_RBTREE_	dyn_rbtree.h	24;"	d
+_DYN_RING_H_	dyn_ring.h	7;"	d
+_DYN_RING_QUEUE_	dyn_ring_queue.h	8;"	d
+_DYN_SERVER_H_	dyn_server.h	24;"	d
+_DYN_SIGNAL_H_	dyn_signal.h	24;"	d
+_DYN_STATS_H_	dyn_stats.h	24;"	d
+_DYN_STRING_H_	dyn_string.h	24;"	d
+_DYN_UTIL_H_	dyn_util.h	24;"	d
+__offsetof	dyn_queue.h	61;"	d
+_conn_get	dyn_connection.c	/^_conn_get(void)$/;"	f	file:
+_dn_alloc	dyn_util.c	/^_dn_alloc(size_t size, const char *name, int line)$/;"	f
+_dn_atoi	dyn_util.c	/^_dn_atoi(uint8_t *line, size_t n)$/;"	f
+_dn_atoui	dyn_util.c	/^_dn_atoui(uint8_t *line, size_t n)$/;"	f
+_dn_calloc	dyn_util.c	/^_dn_calloc(size_t nmemb, size_t size, const char *name, int line)$/;"	f
+_dn_free	dyn_util.c	/^_dn_free(void *ptr, const char *name, int line)$/;"	f
+_dn_realloc	dyn_util.c	/^_dn_realloc(void *ptr, size_t size, const char *name, int line)$/;"	f
+_dn_recvn	dyn_util.c	/^_dn_recvn(int sd, void *vptr, size_t n)$/;"	f
+_dn_sendn	dyn_util.c	/^_dn_sendn(int sd, const void *vptr, size_t n)$/;"	f
+_dn_strchr	dyn_string.h	/^_dn_strchr(uint8_t *p, uint8_t *last, uint8_t c)$/;"	f
+_dn_strrchr	dyn_string.h	/^_dn_strrchr(uint8_t *p, uint8_t *start, uint8_t c)$/;"	f
+_dn_zalloc	dyn_util.c	/^_dn_zalloc(size_t size, const char *name, int line)$/;"	f
+_log	dyn_log.c	/^_log(const char *file, int line, int panic, const char *fmt, ...)$/;"	f
+_log_hexdump	dyn_log.c	/^_log_hexdump(const char *file, int line, char *data, int datalen,$/;"	f
+_log_stderr	dyn_log.c	/^_log_stderr(const char *fmt, ...)$/;"	f
+_mbuf_get	dyn_mbuf.c	/^_mbuf_get(void)$/;"	f	file:
+_msg_get	dyn_message.c	/^_msg_get(void)$/;"	f	file:
+_scnprintf	dyn_util.c	/^_scnprintf(char *buf, size_t size, const char *fmt, ...)$/;"	f
+_stats_pool_decr	dyn_stats.c	/^_stats_pool_decr(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_decr_by	dyn_stats.c	/^_stats_pool_decr_by(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_incr	dyn_stats.c	/^_stats_pool_incr(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_incr_by	dyn_stats.c	/^_stats_pool_incr_by(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_set_ts	dyn_stats.c	/^_stats_pool_set_ts(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_server_decr	dyn_stats.c	/^_stats_server_decr(struct context *ctx, struct server *server,$/;"	f
+_stats_server_decr_by	dyn_stats.c	/^_stats_server_decr_by(struct context *ctx, struct server *server,$/;"	f
+_stats_server_incr	dyn_stats.c	/^_stats_server_incr(struct context *ctx, struct server *server,$/;"	f
+_stats_server_incr_by	dyn_stats.c	/^_stats_server_incr_by(struct context *ctx, struct server *server,$/;"	f
+_stats_server_set_ts	dyn_stats.c	/^_stats_server_set_ts(struct context *ctx, struct server *server,$/;"	f
+_vscnprintf	dyn_util.c	/^_vscnprintf(char *buf, size_t size, const char *fmt, va_list args)$/;"	f
+active	dyn_connection.h	/^    conn_active_t      active;        \/* active? handler *\/$/;"	m	struct:conn
+addr	dyn_connection.h	/^    struct sockaddr    *addr;         \/* socket address (ref in server or server_pool) *\/$/;"	m	struct:conn	typeref:struct:conn::sockaddr
+addr	dyn_server.h	/^    struct sockaddr    *addr;                \/* socket address (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::sockaddr
+addr	dyn_server.h	/^    struct sockaddr    *addr;         \/* socket address (ref in conf_server) *\/$/;"	m	struct:server	typeref:struct:server::sockaddr
+addr	dyn_stats.h	/^    struct string       addr;           \/* stats monitoring address *\/$/;"	m	struct:stats	typeref:struct:stats::string
+addr	dyn_util.h	/^    } addr;$/;"	m	struct:sockinfo	typeref:union:sockinfo::__anon7
+addrlen	dyn_connection.h	/^    socklen_t          addrlen;       \/* socket length *\/$/;"	m	struct:conn
+addrlen	dyn_server.h	/^    socklen_t          addrlen;              \/* socket length *\/$/;"	m	struct:server_pool
+addrlen	dyn_server.h	/^    socklen_t          addrlen;       \/* socket length *\/$/;"	m	struct:server
+addrlen	dyn_util.h	/^    socklen_t addrlen;             \/* socket address length *\/$/;"	m	struct:sockinfo
+addrstr	dyn_server.h	/^    struct string      addrstr;              \/* pool address (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+aggregate	dyn_stats.h	/^    volatile int        aggregate;      \/* shadow (b) aggregate? *\/$/;"	m	struct:stats
+arg	dyn_conf.h	/^    struct array  arg;              \/* string[] (parsed {key, value} pairs) *\/$/;"	m	struct:conf	typeref:struct:conf::array
+array	dyn_array.h	/^struct array {$/;"	s
+array_compare_t	dyn_array.h	/^typedef int (*array_compare_t)(const void *, const void *);$/;"	t
+array_create	dyn_array.c	/^array_create(uint32_t n, size_t size)$/;"	f
+array_deinit	dyn_array.c	/^array_deinit(struct array *a)$/;"	f
+array_destroy	dyn_array.c	/^array_destroy(struct array *a)$/;"	f
+array_each	dyn_array.c	/^array_each(struct array *a, array_each_t func, void *data)$/;"	f
+array_each_t	dyn_array.h	/^typedef rstatus_t (*array_each_t)(void *, void *);$/;"	t
+array_get	dyn_array.c	/^array_get(struct array *a, uint32_t idx)$/;"	f
+array_idx	dyn_array.c	/^array_idx(struct array *a, void *elem)$/;"	f
+array_init	dyn_array.c	/^array_init(struct array *a, uint32_t n, size_t size)$/;"	f
+array_n	dyn_array.h	/^array_n(const struct array *a)$/;"	f
+array_null	dyn_array.h	/^array_null(struct array *a)$/;"	f
+array_pop	dyn_array.c	/^array_pop(struct array *a)$/;"	f
+array_push	dyn_array.c	/^array_push(struct array *a)$/;"	f
+array_set	dyn_array.h	/^array_set(struct array *a, void *elem, size_t size, uint32_t nalloc)$/;"	f
+array_sort	dyn_array.c	/^array_sort(struct array *a, array_compare_t compare)$/;"	f
+array_swap	dyn_array.c	/^array_swap(struct array *a, struct array *b)$/;"	f
+array_top	dyn_array.c	/^array_top(struct array *a)$/;"	f
+auto_eject_hosts	dyn_conf.h	/^    int                auto_eject_hosts;      \/* auto_eject_hosts: *\/$/;"	m	struct:conf_pool
+auto_eject_hosts	dyn_server.h	/^    unsigned           auto_eject_hosts:1;   \/* auto_eject_hosts? *\/$/;"	m	struct:server_pool
+backlog	dyn_conf.h	/^    int                backlog;               \/* backlog: *\/$/;"	m	struct:conf_pool
+backlog	dyn_server.h	/^    int                backlog;              \/* listen backlog *\/$/;"	m	struct:server_pool
+buf	dyn_stats.h	/^    struct stats_buffer buf;            \/* output buffer *\/$/;"	m	struct:stats	typeref:struct:stats::stats_buffer
+c_conn_q	dyn_server.h	/^    struct conn_tqh    c_conn_q;             \/* client connection q *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::conn_tqh
+c_tqe	dyn_message.h	/^    TAILQ_ENTRY(msg)     c_tqe;           \/* link in client q *\/$/;"	m	struct:msg
+callback_t	dyn_ring_queue.h	/^typedef rstatus_t (*callback_t)(struct server_pool *, struct node *);$/;"	t
+cb	dyn_ring_queue.h	/^	callback_t         cb;$/;"	m	struct:ring_message
+cb	dyn_ring_queue.h	/^	void*         cb;$/;"	m	struct:stat_message
+cf	dyn_core.h	/^    struct conf        *cf;         \/* configuration *\/$/;"	m	struct:context	typeref:struct:context::conf
+client	dyn_connection.h	/^    unsigned           client:1;      \/* client? or server? *\/$/;"	m	struct:conn
+client_active	dyn_client.c	/^client_active(struct conn *conn)$/;"	f
+client_close	dyn_client.c	/^client_close(struct context *ctx, struct conn *conn)$/;"	f
+client_close_stats	dyn_client.c	/^client_close_stats(struct context *ctx, struct server_pool *pool, err_t err,$/;"	f	file:
+client_connections	dyn_conf.h	/^    int                client_connections;    \/* client_connections: *\/$/;"	m	struct:conf_pool
+client_connections	dyn_server.h	/^    uint32_t           client_connections;   \/* maximum # client connection *\/$/;"	m	struct:server_pool
+client_ref	dyn_client.c	/^client_ref(struct conn *conn, void *owner)$/;"	f
+client_request_dyn_msg	dyn_request.c	/^struct string client_request_dyn_msg = string("Client_request");$/;"	v	typeref:struct:string	file:
+client_unref	dyn_client.c	/^client_unref(struct conn *conn)$/;"	f
+close	dyn_connection.h	/^    conn_close_t       close;         \/* close handler *\/$/;"	m	struct:conn
+cmd	dyn_ring_queue.h	/^	stats_cmd_t   cmd;$/;"	m	struct:stat_message
+color	dyn_rbtree.h	/^    uint8_t       color;     \/* red | black *\/$/;"	m	struct:rbnode
+command	dyn_conf.h	/^struct command {$/;"	s
+conf	dyn_conf.h	/^struct conf {$/;"	s
+conf_add_dyn_server	dyn_conf.c	/^conf_add_dyn_server(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_add_server	dyn_conf.c	/^conf_add_server(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_begin_parse	dyn_conf.c	/^conf_begin_parse(struct conf *cf)$/;"	f	file:
+conf_commands	dyn_conf.c	/^static struct command conf_commands[] = {$/;"	v	typeref:struct:command	file:
+conf_create	dyn_conf.c	/^conf_create(char *filename)$/;"	f
+conf_destroy	dyn_conf.c	/^conf_destroy(struct conf *cf)$/;"	f
+conf_dump	dyn_conf.c	/^conf_dump(struct conf *cf)$/;"	f	file:
+conf_end_parse	dyn_conf.c	/^conf_end_parse(struct conf *cf)$/;"	f	file:
+conf_event_done	dyn_conf.c	/^conf_event_done(struct conf *cf)$/;"	f	file:
+conf_event_next	dyn_conf.c	/^conf_event_next(struct conf *cf)$/;"	f	file:
+conf_filename	dyn_core.h	/^    char            *conf_filename;              \/* configuration filename *\/$/;"	m	struct:instance
+conf_handler	dyn_conf.c	/^conf_handler(struct conf *cf, void *data)$/;"	f	file:
+conf_listen	dyn_conf.h	/^struct conf_listen {$/;"	s
+conf_open	dyn_conf.c	/^conf_open(char *filename)$/;"	f	file:
+conf_parse	dyn_conf.c	/^conf_parse(struct conf *cf)$/;"	f	file:
+conf_parse_core	dyn_conf.c	/^conf_parse_core(struct conf *cf, void *data)$/;"	f	file:
+conf_pool	dyn_conf.h	/^struct conf_pool {$/;"	s
+conf_pool	dyn_server.h	/^    struct conf_pool   *conf_pool;           \/* back reference to conf_pool *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::conf_pool
+conf_pool_deinit	dyn_conf.c	/^conf_pool_deinit(struct conf_pool *cp)$/;"	f	file:
+conf_pool_each_transform	dyn_conf.c	/^conf_pool_each_transform(void *elem, void *data)$/;"	f
+conf_pool_init	dyn_conf.c	/^conf_pool_init(struct conf_pool *cp, struct string *name)$/;"	f	file:
+conf_pool_listen_cmp	dyn_conf.c	/^conf_pool_listen_cmp(const void *t1, const void *t2)$/;"	f	file:
+conf_pool_name_cmp	dyn_conf.c	/^conf_pool_name_cmp(const void *t1, const void *t2)$/;"	f	file:
+conf_pop_scalar	dyn_conf.c	/^conf_pop_scalar(struct conf *cf)$/;"	f	file:
+conf_post_validate	dyn_conf.c	/^conf_post_validate(struct conf *cf)$/;"	f	file:
+conf_pre_validate	dyn_conf.c	/^conf_pre_validate(struct conf *cf)$/;"	f	file:
+conf_push_scalar	dyn_conf.c	/^conf_push_scalar(struct conf *cf)$/;"	f	file:
+conf_seed_each_transform	dyn_conf.c	/^conf_seed_each_transform(void *elem, void *data)$/;"	f
+conf_server	dyn_conf.h	/^struct conf_server {$/;"	s
+conf_server_deinit	dyn_conf.c	/^conf_server_deinit(struct conf_server *cs)$/;"	f	file:
+conf_server_each_transform	dyn_conf.c	/^conf_server_each_transform(void *elem, void *data)$/;"	f
+conf_server_init	dyn_conf.c	/^conf_server_init(struct conf_server *cs)$/;"	f	file:
+conf_server_name_cmp	dyn_conf.c	/^conf_server_name_cmp(const void *t1, const void *t2)$/;"	f	file:
+conf_set_bool	dyn_conf.c	/^conf_set_bool(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_distribution	dyn_conf.c	/^conf_set_distribution(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_hash	dyn_conf.c	/^conf_set_hash(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_hashtag	dyn_conf.c	/^conf_set_hashtag(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_is_secure	dyn_conf.c	/^static bool conf_set_is_secure(struct conf *cf, uint32_t npool) {$/;"	f	file:
+conf_set_listen	dyn_conf.c	/^conf_set_listen(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_num	dyn_conf.c	/^conf_set_num(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_string	dyn_conf.c	/^conf_set_string(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_tokens	dyn_conf.c	/^conf_set_tokens(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_token_done	dyn_conf.c	/^conf_token_done(struct conf *cf)$/;"	f	file:
+conf_token_next	dyn_conf.c	/^conf_token_next(struct conf *cf)$/;"	f	file:
+conf_validate_document	dyn_conf.c	/^conf_validate_document(struct conf *cf)$/;"	f	file:
+conf_validate_pool	dyn_conf.c	/^conf_validate_pool(struct conf *cf, struct conf_pool *cp)$/;"	f	file:
+conf_validate_server	dyn_conf.c	/^conf_validate_server(struct conf *cf, struct conf_pool *cp)$/;"	f	file:
+conf_validate_structure	dyn_conf.c	/^conf_validate_structure(struct conf *cf)$/;"	f	file:
+conf_validate_tokens	dyn_conf.c	/^conf_validate_tokens(struct conf *cf)$/;"	f	file:
+conf_yaml_deinit	dyn_conf.c	/^conf_yaml_deinit(struct conf *cf)$/;"	f	file:
+conf_yaml_init	dyn_conf.c	/^conf_yaml_init(struct conf *cf)$/;"	f	file:
+conn	dyn_connection.h	/^struct conn {$/;"	s
+conn_active_t	dyn_connection.h	/^typedef bool (*conn_active_t)(struct conn *);$/;"	t
+conn_close_t	dyn_connection.h	/^typedef void (*conn_close_t)(struct context *, struct conn *);$/;"	t
+conn_deinit	dyn_connection.c	/^conn_deinit(void)$/;"	f
+conn_free	dyn_connection.c	/^conn_free(struct conn *conn)$/;"	f	file:
+conn_get	dyn_connection.c	/^conn_get(void *owner, bool client, bool redis)$/;"	f
+conn_get_dnode	dyn_connection.c	/^conn_get_dnode(void *owner)$/;"	f
+conn_get_peer	dyn_connection.c	/^conn_get_peer(void *owner, bool client, bool redis)$/;"	f
+conn_get_proxy	dyn_connection.c	/^conn_get_proxy(void *owner)$/;"	f
+conn_init	dyn_connection.c	/^conn_init(void)$/;"	f
+conn_msgq_t	dyn_connection.h	/^typedef void (*conn_msgq_t)(struct context *, struct conn *, struct msg *);$/;"	t
+conn_put	dyn_connection.c	/^conn_put(struct conn *conn)$/;"	f
+conn_recv	dyn_connection.c	/^conn_recv(struct conn *conn, void *buf, size_t size)$/;"	f
+conn_recv_done_t	dyn_connection.h	/^typedef void (*conn_recv_done_t)(struct context *, struct conn *, struct msg *, struct msg *);$/;"	t
+conn_recv_next_t	dyn_connection.h	/^typedef struct msg* (*conn_recv_next_t)(struct context *, struct conn *, bool);$/;"	t	typeref:struct:conn_recv_next_t
+conn_recv_t	dyn_connection.h	/^typedef rstatus_t (*conn_recv_t)(struct context *, struct conn*);$/;"	t
+conn_ref_t	dyn_connection.h	/^typedef void (*conn_ref_t)(struct conn *, void *);$/;"	t
+conn_send_done_t	dyn_connection.h	/^typedef void (*conn_send_done_t)(struct context *, struct conn *, struct msg *);$/;"	t
+conn_send_next_t	dyn_connection.h	/^typedef struct msg* (*conn_send_next_t)(struct context *, struct conn *);$/;"	t	typeref:struct:conn_send_next_t
+conn_send_t	dyn_connection.h	/^typedef rstatus_t (*conn_send_t)(struct context *, struct conn*);$/;"	t
+conn_sendv	dyn_connection.c	/^conn_sendv(struct conn *conn, struct array *sendv, size_t nsend)$/;"	f
+conn_to_ctx	dyn_connection.c	/^conn_to_ctx(struct conn *conn)$/;"	f
+conn_tqe	dyn_connection.h	/^    TAILQ_ENTRY(conn)  conn_tqe;      \/* link in server_pool \/ server \/ free q *\/$/;"	m	struct:conn
+conn_unref_t	dyn_connection.h	/^typedef void (*conn_unref_t)(struct conn *);$/;"	t
+connected	dyn_connection.h	/^    unsigned           connected:1;   \/* connected? *\/$/;"	m	struct:conn
+connecting	dyn_connection.h	/^    unsigned           connecting:1;  \/* connecting? *\/$/;"	m	struct:conn
+context	dyn_core.h	/^struct context {$/;"	s
+continuum	dyn_server.h	/^    struct continuum   *continuum;           \/* continuum *\/$/;"	m	struct:datacenter	typeref:struct:datacenter::continuum
+continuum	dyn_server.h	/^struct continuum {$/;"	s
+core_close	dyn_core.c	/^core_close(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_close_log	dyn_core.c	/^core_close_log(struct conn *conn)$/;"	f	file:
+core_core	dyn_core.c	/^core_core(void *arg, uint32_t events)$/;"	f
+core_ctx_create	dyn_core.c	/^core_ctx_create(struct instance *nci)$/;"	f	file:
+core_ctx_destroy	dyn_core.c	/^core_ctx_destroy(struct context *ctx)$/;"	f	file:
+core_debug	dyn_core.c	/^core_debug(struct context *ctx)$/;"	f
+core_dnode_close_log	dyn_core.c	/^core_dnode_close_log(struct conn *conn)$/;"	f	file:
+core_error	dyn_core.c	/^core_error(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_loop	dyn_core.c	/^core_loop(struct context *ctx)$/;"	f
+core_process_messages	dyn_core.c	/^core_process_messages(void)$/;"	f	file:
+core_recv	dyn_core.c	/^core_recv(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_run_gossip	dyn_core.c	/^static bool core_run_gossip(void)$/;"	f	file:
+core_send	dyn_core.c	/^core_send(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_start	dyn_core.c	/^core_start(struct instance *nci)$/;"	f
+core_stop	dyn_core.c	/^core_stop(struct context *ctx)$/;"	f
+core_timeout	dyn_core.c	/^core_timeout(struct context *ctx)$/;"	f	file:
+counter	dyn_stats.h	/^        int64_t   counter;      \/* accumulating counter *\/$/;"	m	union:stats_metric::__anon6
+create_node	dyn_ring_queue.c	/^create_node()$/;"	f
+create_ring_message	dyn_ring_queue.c	/^create_ring_message()$/;"	f
+ctx	dyn_core.h	/^    struct context  *ctx;                        \/* active context *\/$/;"	m	struct:instance	typeref:struct:instance::context
+ctx	dyn_gossip.h	/^    struct context     *ctx;                 \/* owner context *\/$/;"	m	struct:gossip_node_pool	typeref:struct:gossip_node_pool::context
+ctx	dyn_server.h	/^    struct context     *ctx;                 \/* owner context *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::context
+ctx	dyn_stats.h	/^    struct context      *ctx;$/;"	m	struct:stats	typeref:struct:stats::context
+ctx_id	dyn_core.c	/^static uint32_t ctx_id; \/* context generation *\/$/;"	v	file:
+current	dyn_stats.h	/^    struct array        current;        \/* stats_pool[] (a) *\/$/;"	m	struct:stats	typeref:struct:stats::array
+d_addr	dyn_server.h	/^    struct sockaddr    *d_addr;              \/* socket address (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::sockaddr
+d_addrlen	dyn_server.h	/^    socklen_t          d_addrlen;            \/* socket length *\/$/;"	m	struct:server_pool
+d_addrstr	dyn_server.h	/^    struct string      d_addrstr;            \/* pool address (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+d_backlog	dyn_server.h	/^    int                d_backlog;            \/* listen backlog *\/ $/;"	m	struct:server_pool
+d_conn	dyn_server.h	/^    struct conn        *d_conn;              \/* dnode connection (listener) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::conn
+d_connections	dyn_server.h	/^    uint32_t           d_connections;        \/* maximum # dyn connections *\/$/;"	m	struct:server_pool
+d_failure_limit	dyn_server.h	/^    uint32_t           d_failure_limit;      \/* peer failure limit *\/$/;"	m	struct:server_pool
+d_family	dyn_server.h	/^    int                d_family;             \/* socket family *\/$/;"	m	struct:server_pool
+d_port	dyn_server.h	/^    uint16_t           d_port;               \/* port *\/$/;"	m	struct:server_pool
+d_retry_timeout	dyn_server.h	/^    int64_t            d_retry_timeout;      \/* peer retry timeout in usec *\/$/;"	m	struct:server_pool
+d_timeout	dyn_server.h	/^    int                d_timeout;            \/* peer timeout in msec *\/$/;"	m	struct:server_pool
+daemonize	dynomite.c	/^static int daemonize;$/;"	v	file:
+data	dyn_dnode_msg.h	/^    uint8_t  *data;                       \/*  data *\/ $/;"	m	struct:dmsg
+data	dyn_dnode_msg.h	/^    uint8_t  *data; \/*  data *\/$/;"	m	struct:dval
+data	dyn_rbtree.h	/^    void          *data;     \/* opaque data *\/$/;"	m	struct:rbnode
+data	dyn_ring_queue.h	/^	void*         data;$/;"	m	struct:stat_message
+data	dyn_stats.h	/^    uint8_t  *data; \/* buffer data *\/$/;"	m	struct:stats_buffer
+data	dyn_string.h	/^    uint8_t  *data; \/* string data *\/$/;"	m	struct:string
+datacenter	dyn_server.h	/^    struct array       datacenter;           \/* datacenter info  *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::array
+datacenter	dyn_server.h	/^struct datacenter {$/;"	s
+datacenter	dyn_stats.h	/^    struct string       datacenter;$/;"	m	struct:stats	typeref:struct:stats::string
+datacenter_deinit	dyn_server.c	/^datacenter_deinit(struct datacenter *dc)$/;"	f
+datacenter_init	dyn_server.c	/^datacenter_init(struct datacenter *dc)$/;"	f
+datacenter_str	dyn_stats.h	/^    struct string       datacenter_str;$/;"	m	struct:stats	typeref:struct:stats::string
+datacenters	dyn_gossip.h	/^    struct array       datacenters;          \/* gossip_dc  *\/$/;"	m	struct:gossip_node_pool	typeref:struct:gossip_node_pool::array
+dc	dyn_conf.h	/^    struct string      dc;                    \/* this node's logical dc *\/  $/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+dc	dyn_conf.h	/^    struct string   dc;          \/* peer node or server's datacenter *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::string
+dc	dyn_ring_queue.h	/^    struct string      dc;$/;"	m	struct:node	typeref:struct:node::string
+dc	dyn_server.h	/^    struct string      dc;                   \/* the datacenter for this node *\/  $/;"	m	struct:server_pool	typeref:struct:server_pool::string
+dc	dyn_server.h	/^    struct string      dc;            \/* logical datacenter *\/$/;"	m	struct:server	typeref:struct:server::string
+dc_deinit	dyn_dnode_peer.c	/^dc_deinit(void *elem, void *data)$/;"	f	file:
+dc_deinit	dyn_server.c	/^dc_deinit(void *elem, void *data)$/;"	f	file:
+depth	dyn_conf.h	/^    uint32_t      depth;            \/* parsed tree depth *\/$/;"	m	struct:conf
+dequeue_inq	dyn_connection.h	/^    conn_msgq_t        dequeue_inq;   \/* connection inq msg dequeue handler *\/$/;"	m	struct:conn
+dequeue_outq	dyn_connection.h	/^    conn_msgq_t        dequeue_outq;  \/* connection outq msg dequeue handler *\/$/;"	m	struct:conn
+desc	dyn_stats.c	/^    char *desc; \/* stats description *\/$/;"	m	struct:stats_desc	file:
+describe_stats	dynomite.c	/^static int describe_stats;$/;"	v	file:
+dist_strings	dyn_conf.c	/^static struct string dist_strings[] = {$/;"	v	typeref:struct:string	file:
+dist_type	dyn_server.h	/^    int                dist_type;            \/* distribution type (dist_type_t) *\/$/;"	m	struct:server_pool
+distribution	dyn_conf.h	/^    dist_type_t        distribution;          \/* distribution: *\/$/;"	m	struct:conf_pool
+dmsg	dyn_dnode_msg.h	/^struct dmsg {$/;"	s
+dmsg	dyn_message.h	/^    struct dmsg          *dmsg;          \/* dyn message *\/$/;"	m	struct:msg	typeref:struct:msg::dmsg
+dmsg_deinit	dyn_dnode_msg.c	/^dmsg_deinit(void)$/;"	f
+dmsg_dump	dyn_dnode_msg.c	/^dmsg_dump(struct dmsg *dmsg)$/;"	f
+dmsg_empty	dyn_dnode_msg.c	/^dmsg_empty(struct dmsg *msg)$/;"	f
+dmsg_free	dyn_dnode_msg.c	/^dmsg_free(struct dmsg *dmsg)$/;"	f
+dmsg_get	dyn_dnode_msg.c	/^dmsg_get(void)$/;"	f
+dmsg_id	dyn_dnode_msg.c	/^static uint64_t dmsg_id;          \/* message id counter *\/$/;"	v	file:
+dmsg_init	dyn_dnode_msg.c	/^dmsg_init(void)$/;"	f
+dmsg_process	dyn_dnode_msg.c	/^dmsg_process(struct context *ctx, struct conn *conn, struct dmsg *dmsg)$/;"	f
+dmsg_put	dyn_dnode_msg.c	/^dmsg_put(struct dmsg *dmsg)$/;"	f
+dmsg_type	dyn_dnode_msg.h	/^typedef enum dmsg_type {$/;"	g
+dmsg_type_t	dyn_dnode_msg.h	/^} dmsg_type_t;$/;"	t	typeref:enum:dmsg_type
+dmsg_version	dyn_dnode_msg.h	/^typedef enum dmsg_version {$/;"	g
+dmsg_version_t	dyn_dnode_msg.h	/^} dmsg_version_t;$/;"	t	typeref:enum:dmsg_version
+dmsg_write	dyn_dnode_msg.c	/^dmsg_write(struct mbuf *mbuf, uint64_t msg_id, uint8_t type, uint8_t version, struct string *data)$/;"	f
+dn_alloc	dyn_util.h	109;"	d
+dn_assert	dyn_util.c	/^dn_assert(const char *cond, const char *file, int line, int panic)$/;"	f
+dn_atoi	dyn_util.h	83;"	d
+dn_atoui	dyn_util.h	85;"	d
+dn_calloc	dyn_util.h	115;"	d
+dn_conn_q	dyn_server.h	/^    uint32_t           dn_conn_q;            \/* # client connection *\/$/;"	m	struct:server_pool
+dn_create_pidfile	dynomite.c	/^dn_create_pidfile(struct instance *nci)$/;"	f	file:
+dn_daemonize	dynomite.c	/^dn_daemonize(int dump_core)$/;"	f	file:
+dn_free	dyn_util.h	121;"	d
+dn_get_options	dynomite.c	/^dn_get_options(int argc, char **argv, struct instance *nci)$/;"	f	file:
+dn_get_rcvbuf	dyn_util.c	/^dn_get_rcvbuf(int sd)$/;"	f
+dn_get_sndbuf	dyn_util.c	/^dn_get_sndbuf(int sd)$/;"	f
+dn_get_soerror	dyn_util.c	/^dn_get_soerror(int sd)$/;"	f
+dn_gethostname	dyn_util.h	80;"	d
+dn_memchr	dyn_string.h	66;"	d
+dn_memcpy	dyn_string.h	60;"	d
+dn_memmove	dyn_string.h	63;"	d
+dn_msec_now	dyn_util.c	/^dn_msec_now(void)$/;"	f
+dn_post_run	dynomite.c	/^dn_post_run(struct instance *nci)$/;"	f	file:
+dn_pre_run	dynomite.c	/^dn_pre_run(struct instance *nci)$/;"	f	file:
+dn_print_done	dynomite.c	/^dn_print_done(void)$/;"	f	file:
+dn_print_run	dynomite.c	/^dn_print_run(struct instance *nci)$/;"	f	file:
+dn_read	dyn_util.h	146;"	d
+dn_readv	dyn_util.h	149;"	d
+dn_realloc	dyn_util.h	118;"	d
+dn_recvn	dyn_util.h	139;"	d
+dn_remove_pidfile	dynomite.c	/^dn_remove_pidfile(struct instance *nci)$/;"	f	file:
+dn_resolve	dyn_util.c	/^dn_resolve(struct string *name, int port, struct sockinfo *si)$/;"	f
+dn_resolve_inet	dyn_util.c	/^dn_resolve_inet(struct string *name, int port, struct sockinfo *si)$/;"	f	file:
+dn_resolve_unix	dyn_util.c	/^dn_resolve_unix(struct string *name, struct sockinfo *si)$/;"	f	file:
+dn_run	dynomite.c	/^dn_run(struct instance *nci)$/;"	f	file:
+dn_scnprintf	dyn_string.h	93;"	d
+dn_sendn	dyn_util.h	136;"	d
+dn_set_blocking	dyn_util.c	/^dn_set_blocking(int sd)$/;"	f
+dn_set_default_options	dynomite.c	/^dn_set_default_options(struct instance *nci)$/;"	f	file:
+dn_set_linger	dyn_util.c	/^dn_set_linger(int sd, int timeout)$/;"	f
+dn_set_nonblocking	dyn_util.c	/^dn_set_nonblocking(int sd)$/;"	f
+dn_set_rcvbuf	dyn_util.c	/^dn_set_rcvbuf(int sd, int size)$/;"	f
+dn_set_reuseaddr	dyn_util.c	/^dn_set_reuseaddr(int sd)$/;"	f
+dn_set_sndbuf	dyn_util.c	/^dn_set_sndbuf(int sd, int size)$/;"	f
+dn_set_tcpnodelay	dyn_util.c	/^dn_set_tcpnodelay(int sd)$/;"	f
+dn_show_usage	dynomite.c	/^dn_show_usage(void)$/;"	f	file:
+dn_snprintf	dyn_string.h	87;"	d
+dn_sprintf	dyn_string.h	90;"	d
+dn_stacktrace	dyn_util.c	/^dn_stacktrace(int skip_count)$/;"	f
+dn_strchr	dyn_string.h	78;"	d
+dn_strcmp	dyn_string.h	75;"	d
+dn_strlen	dyn_string.h	69;"	d
+dn_strncmp	dyn_string.h	72;"	d
+dn_strndup	dyn_string.h	84;"	d
+dn_strrchr	dyn_string.h	81;"	d
+dn_test_conf	dynomite.c	/^dn_test_conf(struct instance *nci)$/;"	f	file:
+dn_unresolve_addr	dyn_util.c	/^dn_unresolve_addr(struct sockaddr *addr, socklen_t addrlen)$/;"	f
+dn_unresolve_desc	dyn_util.c	/^dn_unresolve_desc(int sd)$/;"	f
+dn_unresolve_peer_desc	dyn_util.c	/^dn_unresolve_peer_desc(int sd)$/;"	f
+dn_usec_now	dyn_util.c	/^dn_usec_now(void)$/;"	f
+dn_valid_port	dyn_util.c	/^dn_valid_port(int n)$/;"	f
+dn_vscnprintf	dyn_string.h	96;"	d
+dn_write	dyn_util.h	152;"	d
+dn_writev	dyn_util.h	155;"	d
+dn_zalloc	dyn_util.h	112;"	d
+dnode_accept	dyn_dnode_server.c	/^dnode_accept(struct context *ctx, struct conn *p)$/;"	f	file:
+dnode_client	dyn_connection.h	/^    unsigned           dnode_client:1;  \/* dnode client? *\/$/;"	m	struct:conn
+dnode_client_active	dyn_dnode_client.c	/^dnode_client_active(struct conn *conn)$/;"	f
+dnode_client_close	dyn_dnode_client.c	/^dnode_client_close(struct context *ctx, struct conn *conn)$/;"	f
+dnode_client_close_stats	dyn_dnode_client.c	/^dnode_client_close_stats(struct context *ctx, struct server_pool *pool, err_t err,$/;"	f	file:
+dnode_client_ref	dyn_dnode_client.c	/^dnode_client_ref(struct conn *conn, void *owner)$/;"	f
+dnode_client_unref	dyn_dnode_client.c	/^dnode_client_unref(struct conn *conn)$/;"	f
+dnode_close	dyn_dnode_server.c	/^dnode_close(struct context *ctx, struct conn *conn)$/;"	f
+dnode_deinit	dyn_dnode_server.c	/^dnode_deinit(struct context *ctx)$/;"	f
+dnode_each_deinit	dyn_dnode_server.c	/^dnode_each_deinit(void *elem, void *data)$/;"	f
+dnode_each_init	dyn_dnode_server.c	/^dnode_each_init(void *elem, void *data)$/;"	f
+dnode_init	dyn_dnode_server.c	/^dnode_init(struct context *ctx)$/;"	f
+dnode_listen	dyn_dnode_server.c	/^dnode_listen(struct context *ctx, struct conn *p)$/;"	f	file:
+dnode_peer_active	dyn_dnode_peer.c	/^dnode_peer_active(struct conn *conn)$/;"	f
+dnode_peer_add	dyn_dnode_peer.c	/^dnode_peer_add(struct server_pool *sp, struct node *node)$/;"	f
+dnode_peer_add_dc	dyn_dnode_peer.c	/^dnode_peer_add_dc(struct server_pool *sp, struct node *node)$/;"	f
+dnode_peer_add_local	dyn_dnode_peer.c	/^dnode_peer_add_local(struct server_pool *pool, struct server *peer)$/;"	f	file:
+dnode_peer_add_node	dyn_dnode_peer.c	/^dnode_peer_add_node(struct server_pool *sp, struct node *node)$/;"	f	file:
+dnode_peer_close	dyn_dnode_peer.c	/^dnode_peer_close(struct context *ctx, struct conn *conn)$/;"	f
+dnode_peer_close_stats	dyn_dnode_peer.c	/^dnode_peer_close_stats(struct context *ctx, struct server *server, err_t err,$/;"	f	file:
+dnode_peer_conn	dyn_dnode_peer.c	/^dnode_peer_conn(struct server *server)$/;"	f
+dnode_peer_connect	dyn_dnode_peer.c	/^dnode_peer_connect(struct context *ctx, struct server *server, struct conn *conn)$/;"	f
+dnode_peer_connected	dyn_dnode_peer.c	/^dnode_peer_connected(struct context *ctx, struct conn *conn)$/;"	f
+dnode_peer_deinit	dyn_dnode_peer.c	/^dnode_peer_deinit(struct array *nodes)$/;"	f
+dnode_peer_each_disconnect	dyn_dnode_peer.c	/^dnode_peer_each_disconnect(void *elem, void *data)$/;"	f	file:
+dnode_peer_each_pool_init	dyn_dnode_peer.c	/^dnode_peer_each_pool_init(void *elem, void *context)$/;"	f
+dnode_peer_each_preconnect	dyn_dnode_peer.c	/^dnode_peer_each_preconnect(void *elem, void *data)$/;"	f	file:
+dnode_peer_each_set_owner	dyn_dnode_peer.c	/^dnode_peer_each_set_owner(void *elem, void *data)$/;"	f	file:
+dnode_peer_failure	dyn_dnode_peer.c	/^dnode_peer_failure(struct context *ctx, struct server *server)$/;"	f	file:
+dnode_peer_init	dyn_dnode_peer.c	/^dnode_peer_init(struct array *server_pool, struct context *ctx)$/;"	f
+dnode_peer_ok	dyn_dnode_peer.c	/^dnode_peer_ok(struct context *ctx, struct conn *conn)$/;"	f
+dnode_peer_pool_conn	dyn_dnode_peer.c	/^dnode_peer_pool_conn(struct context *ctx, struct server_pool *pool, struct datacenter *dc,$/;"	f
+dnode_peer_pool_deinit	dyn_dnode_peer.c	/^dnode_peer_pool_deinit(struct array *server_pool)$/;"	f
+dnode_peer_pool_disconnect	dyn_dnode_peer.c	/^dnode_peer_pool_disconnect(struct context *ctx)$/;"	f
+dnode_peer_pool_each_disconnect	dyn_dnode_peer.c	/^dnode_peer_pool_each_disconnect(void *elem, void *data)$/;"	f	file:
+dnode_peer_pool_each_preconnect	dyn_dnode_peer.c	/^dnode_peer_pool_each_preconnect(void *elem, void *data)$/;"	f	file:
+dnode_peer_pool_each_set_owner	dyn_dnode_peer.c	/^dnode_peer_pool_each_set_owner(void *elem, void *data)$/;"	f	file:
+dnode_peer_pool_hash	dyn_dnode_peer.c	/^dnode_peer_pool_hash(struct server_pool *pool, uint8_t *key, uint32_t keylen)$/;"	f	file:
+dnode_peer_pool_preconnect	dyn_dnode_peer.c	/^dnode_peer_pool_preconnect(struct context *ctx)$/;"	f
+dnode_peer_pool_run	dyn_dnode_peer.c	/^dnode_peer_pool_run(struct server_pool *pool)$/;"	f
+dnode_peer_pool_server	dyn_dnode_peer.c	/^dnode_peer_pool_server(struct server_pool *pool, struct datacenter *dc, uint8_t *key, uint32_t keylen)$/;"	f	file:
+dnode_peer_pool_update	dyn_dnode_peer.c	/^dnode_peer_pool_update(struct server_pool *pool)$/;"	f
+dnode_peer_ref	dyn_dnode_peer.c	/^dnode_peer_ref(struct conn *conn, void *owner)$/;"	f
+dnode_peer_relink_conn_owner	dyn_dnode_peer.c	/^dnode_peer_relink_conn_owner(struct server_pool *sp) {$/;"	f	file:
+dnode_peer_remove	dyn_dnode_peer.c	/^dnode_peer_remove(struct server_pool *sp, struct node *node)$/;"	f
+dnode_peer_replace	dyn_dnode_peer.c	/^dnode_peer_replace(struct server_pool *sp, struct node *node)$/;"	f
+dnode_peer_timeout	dyn_dnode_peer.c	/^dnode_peer_timeout(struct conn *conn)$/;"	f
+dnode_peer_unref	dyn_dnode_peer.c	/^dnode_peer_unref(struct conn *conn)$/;"	f
+dnode_recv	dyn_dnode_server.c	/^dnode_recv(struct context *ctx, struct conn *conn)$/;"	f
+dnode_ref	dyn_dnode_server.c	/^dnode_ref(struct conn *conn, void *owner)$/;"	f
+dnode_req_client_dequeue_omsgq	dyn_dnode_request.c	/^dnode_req_client_dequeue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_client_enqueue_omsgq	dyn_dnode_request.c	/^dnode_req_client_enqueue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_done	dyn_dnode_request.c	/^dnode_req_done(struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_error	dyn_dnode_request.c	/^dnode_req_error(struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_filter	dyn_dnode_request.c	/^dnode_req_filter(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+dnode_req_forward	dyn_dnode_request.c	/^dnode_req_forward(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+dnode_req_forward_error	dyn_dnode_request.c	/^dnode_req_forward_error(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+dnode_req_forward_stats	dyn_dnode_request.c	/^dnode_req_forward_stats(struct context *ctx, struct server *server, struct msg *msg)$/;"	f	file:
+dnode_req_get	dyn_dnode_request.c	/^dnode_req_get(struct conn *conn)$/;"	f
+dnode_req_gos_forward	dyn_dnode_request.c	/^dnode_req_gos_forward(struct context *ctx, struct conn *dc_conn, struct msg *msg)$/;"	f	file:
+dnode_req_peer_dequeue_imsgq	dyn_dnode_request.c	/^dnode_req_peer_dequeue_imsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_peer_dequeue_omsgq	dyn_dnode_request.c	/^dnode_req_peer_dequeue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_peer_enqueue_imsgq	dyn_dnode_request.c	/^dnode_req_peer_enqueue_imsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_peer_enqueue_omsgq	dyn_dnode_request.c	/^dnode_req_peer_enqueue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_put	dyn_dnode_request.c	/^dnode_req_put(struct msg *msg)$/;"	f
+dnode_req_recv_done	dyn_dnode_request.c	/^dnode_req_recv_done(struct context *ctx, struct conn *conn, struct msg *msg,$/;"	f
+dnode_req_recv_next	dyn_dnode_request.c	/^dnode_req_recv_next(struct context *ctx, struct conn *conn, bool alloc)$/;"	f
+dnode_req_send_done	dyn_dnode_request.c	/^dnode_req_send_done(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_req_send_next	dyn_dnode_request.c	/^dnode_req_send_next(struct context *ctx, struct conn *conn)$/;"	f
+dnode_reuse	dyn_dnode_server.c	/^dnode_reuse(struct conn *p)$/;"	f	file:
+dnode_rsp_filter	dyn_dnode_response.c	/^dnode_rsp_filter(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+dnode_rsp_forward	dyn_dnode_response.c	/^dnode_rsp_forward(struct context *ctx, struct conn *s_conn, struct msg *msg)$/;"	f	file:
+dnode_rsp_forward_stats	dyn_dnode_response.c	/^dnode_rsp_forward_stats(struct context *ctx, struct server *server, struct msg *msg)$/;"	f	file:
+dnode_rsp_get	dyn_dnode_response.c	/^dnode_rsp_get(struct conn *conn)$/;"	f
+dnode_rsp_put	dyn_dnode_response.c	/^dnode_rsp_put(struct msg *msg)$/;"	f
+dnode_rsp_recv_done	dyn_dnode_response.c	/^dnode_rsp_recv_done(struct context *ctx, struct conn *conn, struct msg *msg,$/;"	f
+dnode_rsp_recv_next	dyn_dnode_response.c	/^dnode_rsp_recv_next(struct context *ctx, struct conn *conn, bool alloc)$/;"	f
+dnode_rsp_send_done	dyn_dnode_response.c	/^dnode_rsp_send_done(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+dnode_rsp_send_next	dyn_dnode_response.c	/^dnode_rsp_send_next(struct context *ctx, struct conn *conn)$/;"	f
+dnode_server	dyn_connection.h	/^    unsigned           dnode_server:1;       \/* dndoe server connection? *\/$/;"	m	struct:conn
+dnode_unref	dyn_dnode_server.c	/^dnode_unref(struct conn *conn)$/;"	f
+done	dyn_connection.h	/^    unsigned           done:1;        \/* done? aka close? *\/$/;"	m	struct:conn
+done	dyn_message.h	/^    unsigned             done:1;          \/* done? *\/$/;"	m	struct:msg
+dval	dyn_dnode_msg.h	/^struct dval {$/;"	s
+dyn_connections	dyn_conf.h	/^    int                dyn_connections;       \/* dyn connections *\/  $/;"	m	struct:conf_pool
+dyn_error	dyn_message.h	/^    dyn_error_t          dyn_error;      \/* error code for dynomite *\/$/;"	m	struct:msg
+dyn_error	dyn_message.h	/^typedef enum dyn_error {$/;"	g
+dyn_error_t	dyn_message.h	/^} dyn_error_t;$/;"	t	typeref:enum:dyn_error
+dyn_gos_run	dyn_ring.c	/^rstatus_t dyn_gos_run(struct context *ctx)$/;"	f
+dyn_listen	dyn_conf.h	/^    struct conf_listen dyn_listen;            \/* dyn_listen  *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::conf_listen
+dyn_mode	dyn_connection.h	/^    unsigned           dyn_mode:1;      \/* is a dyn connection? *\/$/;"	m	struct:conn
+dyn_parse_core	dyn_dnode_msg.c	/^dyn_parse_core(struct msg *r)$/;"	f	file:
+dyn_parse_req	dyn_dnode_msg.c	/^dyn_parse_req(struct msg *r)$/;"	f
+dyn_parse_rsp	dyn_dnode_msg.c	/^void dyn_parse_rsp(struct msg *r)$/;"	f
+dyn_port	dyn_conf.h	/^    int                dyn_port;$/;"	m	struct:conf_pool
+dyn_read_timeout	dyn_conf.h	/^    int                dyn_read_timeout;      \/* inter dyn nodes' read timeout in ms *\/$/;"	m	struct:conf_pool
+dyn_ring	dyn_ring.h	/^struct dyn_ring {$/;"	s
+dyn_ring_init	dyn_ring.c	/^rstatus_t dyn_ring_init(struct array *peers, struct server_pool *sp)$/;"	f
+dyn_seed_provider	dyn_conf.h	/^    struct string      dyn_seed_provider;     \/* seed provider *\/ $/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+dyn_seeds	dyn_conf.h	/^    struct array       dyn_seeds;             \/* seed nodes: conf_server array *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::array
+dyn_state	dyn_core.h	/^    dyn_state_t        dyn_state;   \/* state of the node.  Don't need volatile as$/;"	m	struct:context
+dyn_state	dyn_core.h	/^typedef enum dyn_state {$/;"	g
+dyn_state	dyn_message.h	/^    int                  dyn_state;$/;"	m	struct:msg
+dyn_state_t	dyn_core.h	/^} dyn_state_t;$/;"	t	typeref:enum:dyn_state
+dyn_write_timeout	dyn_conf.h	/^    int                dyn_write_timeout;     \/* inter dyn nodes' write timeout in ms *\/ $/;"	m	struct:conf_pool
+elem	dyn_array.h	/^    void     *elem;  \/* element *\/$/;"	m	struct:array
+end	dyn_mbuf.h	/^    uint8_t            *end;    \/* end of buffer (const) *\/$/;"	m	struct:mbuf
+end	dyn_message.h	/^    uint8_t              *end;            \/* end marker (memcache) *\/$/;"	m	struct:msg
+endline	dyn_stats.c	/^static struct string endline = string("\\r\\n");$/;"	v	typeref:struct:string	file:
+enqueue_inq	dyn_connection.h	/^    conn_msgq_t        enqueue_inq;   \/* connection inq msg enqueue handler *\/$/;"	m	struct:conn
+enqueue_outq	dyn_connection.h	/^    conn_msgq_t        enqueue_outq;  \/* connection outq msg enqueue handler *\/$/;"	m	struct:conn
+eof	dyn_connection.h	/^    unsigned           eof:1;         \/* eof? aka passive close? *\/$/;"	m	struct:conn
+err	dyn_connection.h	/^    err_t              err;           \/* connection errno *\/$/;"	m	struct:conn
+err	dyn_message.h	/^    err_t                err;             \/* errno on error? *\/$/;"	m	struct:msg
+err_t	dyn_core.h	/^typedef int err_t;     \/* error type *\/$/;"	t
+error	dyn_message.h	/^    unsigned             error:1;         \/* error? *\/$/;"	m	struct:msg
+error	dyn_stats.c	/^static struct string error = string("ERR");$/;"	v	typeref:struct:string	file:
+evb	dyn_core.h	/^    struct event_base  *evb;        \/* event base *\/$/;"	m	struct:context	typeref:struct:context::event_base
+event	dyn_conf.h	/^    yaml_event_t  event;            \/* yaml event *\/$/;"	m	struct:conf
+events	dyn_connection.h	/^    uint32_t           events;        \/* connection io events *\/$/;"	m	struct:conn
+failure_count	dyn_ring_queue.h	/^    uint32_t           failure_count; \/* # consecutive failures *\/$/;"	m	struct:node
+failure_count	dyn_server.h	/^    uint32_t           failure_count; \/* # consecutive failures *\/$/;"	m	struct:server
+family	dyn_connection.h	/^    int                family;        \/* socket address family *\/$/;"	m	struct:conn
+family	dyn_server.h	/^    int                family;               \/* socket family *\/$/;"	m	struct:server_pool
+family	dyn_server.h	/^    int                family;        \/* socket family *\/$/;"	m	struct:server
+family	dyn_util.h	/^    int       family;              \/* socket address family *\/$/;"	m	struct:sockinfo
+fd	dyn_log.h	/^    int  fd;     \/* log file descriptor *\/$/;"	m	struct:logger
+fdone	dyn_message.h	/^    unsigned             fdone:1;         \/* all fragments are done? *\/$/;"	m	struct:msg
+ferror	dyn_message.h	/^    unsigned             ferror:1;        \/* one or more fragments are in error? *\/$/;"	m	struct:msg
+fh	dyn_conf.h	/^    FILE          *fh;              \/* file handle *\/$/;"	m	struct:conf
+first_fragment	dyn_message.h	/^    unsigned             first_fragment:1;\/* first fragment? *\/$/;"	m	struct:msg
+flags	dyn_signal.h	/^    int  flags;$/;"	m	struct:signal
+fname	dyn_conf.h	/^    char          *fname;           \/* file name (ref in argv[]) *\/$/;"	m	struct:conf
+frag_id	dyn_message.c	/^static uint64_t frag_id;         \/* fragment id counter *\/$/;"	v	file:
+frag_id	dyn_message.h	/^    uint64_t             frag_id;         \/* id of fragmented message *\/$/;"	m	struct:msg
+frag_owner	dyn_message.h	/^    struct msg           *frag_owner;     \/* owner of fragment message *\/$/;"	m	struct:msg	typeref:struct:msg::msg
+free_connq	dyn_connection.c	/^static struct conn_tqh free_connq; \/* free conn q *\/$/;"	v	typeref:struct:conn_tqh	file:
+free_dmsgq	dyn_dnode_msg.c	/^static struct dmsg_tqh free_dmsgq; \/* free msg q *\/$/;"	v	typeref:struct:dmsg_tqh	file:
+free_mbufq	dyn_mbuf.c	/^static struct mhdr free_mbufq; \/* free mbuf q *\/$/;"	v	typeref:struct:mhdr	file:
+free_msgq	dyn_message.c	/^static struct msg_tqh free_msgq; \/* free msg q *\/$/;"	v	typeref:struct:msg_tqh	file:
+g_interval	dyn_gossip.h	/^    int                g_interval;           \/* gossip interval *\/$/;"	m	struct:gossip_node_pool
+g_interval	dyn_server.h	/^    int                g_interval;           \/* gossip interval *\/$/;"	m	struct:server_pool
+gn_pool	dyn_gossip.c	/^static struct gossip_node_pool gn_pool;$/;"	v	typeref:struct:gossip_node_pool	file:
+gos_interval	dyn_conf.h	/^    int                gos_interval;          \/* wake up interval in ms *\/$/;"	m	struct:conf_pool
+gossip_add_dc	dyn_gossip.c	/^gossip_add_dc(struct server_pool *sp, struct string *dc,$/;"	f	file:
+gossip_add_node	dyn_gossip.c	/^gossip_add_node(struct server_pool *sp, struct gossip_dc *g_dc,$/;"	f	file:
+gossip_add_node_to_dc	dyn_gossip.c	/^gossip_add_node_to_dc(struct server_pool *sp, struct gossip_dc *g_dc,$/;"	f	file:
+gossip_add_seed_if_absent	dyn_gossip.c	/^gossip_add_seed_if_absent(struct server_pool *sp, struct string *dc,$/;"	f	file:
+gossip_dc	dyn_gossip.h	/^struct gossip_dc {$/;"	s
+gossip_dc_init	dyn_gossip.c	/^gossip_dc_init(struct gossip_dc *g_dc, struct string *dc)$/;"	f	file:
+gossip_debug	dyn_gossip.c	/^void gossip_debug(void)$/;"	f
+gossip_destroy	dyn_gossip.c	/^gossip_destroy(struct server_pool *sp)$/;"	f
+gossip_loop	dyn_gossip.c	/^gossip_loop(void *arg)$/;"	f	file:
+gossip_msg_to_core	dyn_gossip.c	/^gossip_msg_to_core(struct server_pool *sp, struct node *node, void *cb)$/;"	f	file:
+gossip_node_pool	dyn_gossip.h	/^struct gossip_node_pool {$/;"	s
+gossip_pool_deinit	dyn_gossip.c	/^void gossip_pool_deinit(struct context *ctx)$/;"	f
+gossip_pool_each_init	dyn_gossip.c	/^gossip_pool_each_init(void *elem, void *data)$/;"	f	file:
+gossip_pool_init	dyn_gossip.c	/^gossip_pool_init(struct context *ctx)$/;"	f
+gossip_replace_node	dyn_gossip.c	/^gossip_replace_node(struct server_pool *sp, struct node *node,$/;"	f	file:
+gossip_set_seeds_provider	dyn_gossip.c	/^gossip_set_seeds_provider(struct string * seeds_provider_str)$/;"	f	file:
+gossip_start	dyn_gossip.c	/^gossip_start(struct server_pool *sp)$/;"	f
+gossip_update_seeds	dyn_gossip.c	/^gossip_update_seeds(struct server_pool *sp, struct string *seeds)$/;"	f	file:
+handler	dyn_signal.h	/^    void (*handler)(int signo);$/;"	m	struct:signal
+hash	dyn_conf.h	/^    hash_type_t        hash;                  \/* hash: *\/$/;"	m	struct:conf_pool
+hash_algos	dyn_conf.c	/^static hash_t hash_algos[] = {$/;"	v	file:
+hash_strings	dyn_conf.c	/^static struct string hash_strings[] = {$/;"	v	typeref:struct:string	file:
+hash_t	dyn_server.h	/^typedef rstatus_t (*hash_t)(const char *, size_t, struct dyn_token *);$/;"	t
+hash_tag	dyn_conf.h	/^    struct string      hash_tag;              \/* hash_tag: *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+hash_tag	dyn_server.h	/^    struct string      hash_tag;             \/* key hash tag (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+header_str	dyn_stats.c	/^static struct string header_str = string("HTTP\/1.1 200 OK \\nContent-Type: application\/json; charset=utf-8 \\nContent-Length:");$/;"	v	typeref:struct:string	file:
+hostname	dyn_core.h	/^    char            hostname[DN_MAXHOSTNAMELEN]; \/* hostname *\/$/;"	m	struct:instance
+id	dyn_core.h	/^    uint32_t           id;          \/* unique context id *\/$/;"	m	struct:context
+id	dyn_dnode_msg.h	/^    uint64_t             id;              \/* message id *\/$/;"	m	struct:dmsg
+id	dyn_message.h	/^    uint64_t             id;              \/* message id *\/$/;"	m	struct:msg
+idx	dyn_gossip.h	/^    uint32_t           idx;                  \/* pool index *\/$/;"	m	struct:gossip_node_pool
+idx	dyn_server.h	/^    uint32_t           idx;                  \/* pool index *\/$/;"	m	struct:server_pool
+idx	dyn_server.h	/^    uint32_t           idx;           \/* server index *\/$/;"	m	struct:server
+imsg_q	dyn_connection.h	/^    struct msg_tqh     imsg_q;        \/* incoming request Q *\/$/;"	m	struct:conn	typeref:struct:conn::msg_tqh
+in	dyn_util.h	/^        struct sockaddr_in  in;    \/* ipv4 socket address *\/$/;"	m	union:sockinfo::__anon7	typeref:struct:sockinfo::__anon7::sockaddr_in
+in6	dyn_util.h	/^        struct sockaddr_in6 in6;   \/* ipv6 socket address *\/$/;"	m	union:sockinfo::__anon7	typeref:struct:sockinfo::__anon7::sockaddr_in6
+index	dyn_server.h	/^    uint32_t index;  \/* dyn_peer index *\/$/;"	m	struct:continuum
+info	dyn_conf.h	/^    struct sockinfo info;        \/* connect socket info *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::sockinfo
+info	dyn_conf.h	/^    struct sockinfo info;    \/* listen socket info *\/$/;"	m	struct:conf_listen	typeref:struct:conf_listen::sockinfo
+info	dyn_ring_queue.h	/^    struct sockinfo    info;$/;"	m	struct:node	typeref:struct:node::sockinfo
+instance	dyn_core.h	/^struct instance {$/;"	s
+integer	dyn_message.h	/^    uint32_t             integer;         \/* integer reply value (redis) *\/$/;"	m	struct:msg
+interval	dyn_stats.h	/^    int                 interval;       \/* stats aggregation interval *\/$/;"	m	struct:stats
+is_local	dyn_ring_queue.h	/^    bool               is_local;      \/* is this peer the current running node?  *\/$/;"	m	struct:node
+is_local	dyn_server.h	/^    bool               is_local;      \/* is this peer the current running node?  *\/$/;"	m	struct:server
+is_read	dyn_message.h	/^    unsigned             is_read:1;       \/*  0 : write$/;"	m	struct:msg
+is_secure	dyn_conf.h	/^    unsigned        is_secure:1; \/* is the connection to the server secure? *\/$/;"	m	struct:conf_server
+is_secure	dyn_server.h	/^    unsigned           is_secure:1;   \/* is the connection to the server secure? *\/$/;"	m	struct:server
+is_seed	dyn_ring_queue.h	/^    bool               is_seed;       \/* seed? *\/$/;"	m	struct:node
+is_seed	dyn_server.h	/^    unsigned           is_seed:1;     \/* seed? *\/$/;"	m	struct:server
+key	dyn_rbtree.h	/^    int64_t       key;       \/* key for ordering *\/$/;"	m	struct:rbnode
+key_end	dyn_message.h	/^    uint8_t              *key_end;        \/* key end *\/$/;"	m	struct:msg
+key_hash	dyn_server.h	/^    hash_t             key_hash;             \/* key hasher *\/$/;"	m	struct:server_pool
+key_hash_type	dyn_server.h	/^    int                key_hash_type;        \/* key hash type (hash_type_t) *\/$/;"	m	struct:server_pool
+key_start	dyn_message.h	/^    uint8_t              *key_start;      \/* key start *\/$/;"	m	struct:msg
+last	dyn_core.c	/^static int64_t last; \/\/storing last time for gossip$/;"	v	file:
+last	dyn_mbuf.h	/^    uint8_t            *last;   \/* write marker *\/$/;"	m	struct:mbuf
+last_fragment	dyn_message.h	/^    unsigned             last_fragment:1; \/* last fragment? *\/$/;"	m	struct:msg
+last_retry	dyn_ring_queue.h	/^    int64_t            last_retry;    \/* last retry time in usec *\/$/;"	m	struct:node
+last_run	dyn_gossip.h	/^    int64_t            last_run;             \/* last time run in usec *\/$/;"	m	struct:gossip_node_pool
+lastfile	dyn_queue.h	/^    char *lastfile;$/;"	m	struct:qm_trace
+lastline	dyn_queue.h	/^    int  lastline;$/;"	m	struct:qm_trace
+left	dyn_rbtree.h	/^    struct rbnode *left;     \/* left link *\/$/;"	m	struct:rbnode	typeref:struct:rbnode::rbnode
+len	dyn_dnode_msg.h	/^    uint32_t len;   \/*  length *\/$/;"	m	struct:dval
+len	dyn_stats.h	/^    size_t   len;   \/* buffer length *\/$/;"	m	struct:stats_buffer
+len	dyn_string.h	/^    uint32_t len;   \/* string length *\/$/;"	m	struct:string
+level	dyn_log.h	/^    int  level;  \/* log level *\/$/;"	m	struct:logger
+listen	dyn_conf.h	/^    struct conf_listen listen;                \/* listen: *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::conf_listen
+local_req_forward	dyn_request.c	/^local_req_forward(struct context *ctx, struct conn *c_conn, struct msg *msg,$/;"	f
+log_debug	dyn_log.h	61;"	d
+log_debug	dyn_log.h	77;"	d
+log_deinit	dyn_log.c	/^log_deinit(void)$/;"	f
+log_error	dyn_log.h	96;"	d
+log_filename	dyn_core.h	/^    char            *log_filename;               \/* log filename *\/$/;"	m	struct:instance
+log_hexdump	dyn_log.h	67;"	d
+log_hexdump	dyn_log.h	78;"	d
+log_init	dyn_log.c	/^log_init(int level, char *name)$/;"	f
+log_level	dyn_core.h	/^    int             log_level;                   \/* log level *\/$/;"	m	struct:instance
+log_level_down	dyn_log.c	/^log_level_down(void)$/;"	f
+log_level_set	dyn_log.c	/^log_level_set(int level)$/;"	f
+log_level_up	dyn_log.c	/^log_level_up(void)$/;"	f
+log_loggable	dyn_log.c	/^log_loggable(int level)$/;"	f
+log_panic	dyn_log.h	108;"	d
+log_reopen	dyn_log.c	/^log_reopen(void)$/;"	f
+log_stderr	dyn_log.h	82;"	d
+log_warn	dyn_log.h	102;"	d
+loga	dyn_log.h	86;"	d
+loga_hexdump	dyn_log.h	90;"	d
+logger	dyn_log.c	/^static struct logger logger;$/;"	v	typeref:struct:logger	file:
+logger	dyn_log.h	/^struct logger {$/;"	s
+long_options	dynomite.c	/^static struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+m_entry	dyn_ring_queue.h	/^     void*    m_entry[C2G_InQ_SIZE];$/;"	m	struct:__anon2
+m_entry	dyn_ring_queue.h	/^     void*    m_entry[C2G_OutQ_SIZE];$/;"	m	struct:__anon3
+m_entry	dyn_ring_queue.h	/^     void*    m_entry[C2S_InQ_SIZE];$/;"	m	struct:__anon4
+m_entry	dyn_ring_queue.h	/^     void*    m_entry[C2S_OutQ_SIZE];$/;"	m	struct:__anon5
+m_getIdx	dyn_ring_queue.h	/^     long     m_getIdx;$/;"	m	struct:__anon2
+m_getIdx	dyn_ring_queue.h	/^     long     m_getIdx;$/;"	m	struct:__anon3
+m_getIdx	dyn_ring_queue.h	/^     long     m_getIdx;$/;"	m	struct:__anon4
+m_getIdx	dyn_ring_queue.h	/^     long     m_getIdx;$/;"	m	struct:__anon5
+m_putIdx	dyn_ring_queue.h	/^     long     m_putIdx;$/;"	m	struct:__anon2
+m_putIdx	dyn_ring_queue.h	/^     long     m_putIdx;$/;"	m	struct:__anon3
+m_putIdx	dyn_ring_queue.h	/^     long     m_putIdx;$/;"	m	struct:__anon4
+m_putIdx	dyn_ring_queue.h	/^     long     m_putIdx;$/;"	m	struct:__anon5
+m_tqe	dyn_dnode_msg.h	/^    TAILQ_ENTRY(dmsg)     m_tqe;           \/* link in free q *\/$/;"	m	struct:dmsg
+m_tqe	dyn_message.h	/^    TAILQ_ENTRY(msg)     m_tqe;           \/* link in send q \/ free q *\/$/;"	m	struct:msg
+magic	dyn_mbuf.h	/^    uint32_t           magic;   \/* mbuf magic (const) *\/$/;"	m	struct:mbuf
+main	dynomite.c	/^main(int argc, char **argv)$/;"	f
+max_timeout	dyn_core.h	/^    int                max_timeout; \/* max timeout in msec *\/$/;"	m	struct:context
+mbuf	dyn_mbuf.h	/^struct mbuf {$/;"	s
+mbuf_chunk_size	dyn_core.h	/^    size_t          mbuf_chunk_size;             \/* mbuf chunk size *\/$/;"	m	struct:instance
+mbuf_chunk_size	dyn_mbuf.c	/^static size_t mbuf_chunk_size; \/* mbuf chunk size - header + data (const) *\/$/;"	v	file:
+mbuf_copy	dyn_mbuf.c	/^mbuf_copy(struct mbuf *mbuf, uint8_t *pos, size_t n)$/;"	f
+mbuf_copy_t	dyn_mbuf.h	/^typedef void (*mbuf_copy_t)(struct mbuf *, void *);$/;"	t
+mbuf_data_size	dyn_mbuf.c	/^mbuf_data_size(void)$/;"	f
+mbuf_deinit	dyn_mbuf.c	/^mbuf_deinit(void)$/;"	f
+mbuf_empty	dyn_mbuf.h	/^mbuf_empty(struct mbuf *mbuf)$/;"	f
+mbuf_free	dyn_mbuf.c	/^mbuf_free(struct mbuf *mbuf)$/;"	f	file:
+mbuf_full	dyn_mbuf.h	/^mbuf_full(struct mbuf *mbuf)$/;"	f
+mbuf_get	dyn_mbuf.c	/^mbuf_get(void)$/;"	f
+mbuf_init	dyn_mbuf.c	/^mbuf_init(struct instance *nci)$/;"	f
+mbuf_insert	dyn_mbuf.c	/^mbuf_insert(struct mhdr *mhdr, struct mbuf *mbuf)$/;"	f
+mbuf_insert_head	dyn_mbuf.c	/^mbuf_insert_head(struct mhdr *mhdr, struct mbuf *mbuf)$/;"	f
+mbuf_length	dyn_mbuf.c	/^mbuf_length(struct mbuf *mbuf)$/;"	f
+mbuf_offset	dyn_mbuf.c	/^static size_t mbuf_offset;     \/* mbuf offset in chunk (const) *\/$/;"	v	file:
+mbuf_put	dyn_mbuf.c	/^mbuf_put(struct mbuf *mbuf)$/;"	f
+mbuf_remove	dyn_mbuf.c	/^mbuf_remove(struct mhdr *mhdr, struct mbuf *mbuf)$/;"	f
+mbuf_rewind	dyn_mbuf.c	/^mbuf_rewind(struct mbuf *mbuf)$/;"	f
+mbuf_size	dyn_mbuf.c	/^mbuf_size(struct mbuf *mbuf)$/;"	f
+mbuf_split	dyn_mbuf.c	/^mbuf_split(struct mhdr *h, uint8_t *pos, mbuf_copy_t cb, void *cbarg)$/;"	f
+mbuf_write_char	dyn_mbuf.c	/^mbuf_write_char(struct mbuf *mbuf, char ch) $/;"	f
+mbuf_write_string	dyn_mbuf.c	/^mbuf_write_string(struct mbuf *mbuf, struct string *s)$/;"	f
+mbuf_write_uint32	dyn_mbuf.c	/^mbuf_write_uint32(struct mbuf *mbuf, uint32_t num)$/;"	f
+mbuf_write_uint64	dyn_mbuf.c	/^mbuf_write_uint64(struct mbuf *mbuf, uint64_t num)$/;"	f
+mbuf_write_uint8	dyn_mbuf.c	/^mbuf_write_uint8(struct mbuf *mbuf, uint8_t num)$/;"	f
+metric	dyn_stats.h	/^    struct array  metric; \/* stats_metric[] for dnode server codec *\/$/;"	m	struct:stats_dnode	typeref:struct:stats_dnode::array
+metric	dyn_stats.h	/^    struct array  metric; \/* stats_metric[] for pool codec *\/$/;"	m	struct:stats_pool	typeref:struct:stats_pool::array
+metric	dyn_stats.h	/^    struct array  metric; \/* stats_metric[] for server codec *\/$/;"	m	struct:stats_server	typeref:struct:stats_server::array
+mhdr	dyn_dnode_msg.h	/^    struct mhdr          mhdr;            \/* message mbuf header *\/$/;"	m	struct:dmsg	typeref:struct:dmsg::mhdr
+mhdr	dyn_message.h	/^    struct mhdr          mhdr;            \/* message mbuf header *\/$/;"	m	struct:msg	typeref:struct:msg::mhdr
+mlen	dyn_dnode_msg.h	/^    uint32_t mlen;                        \/*  length *\/$/;"	m	struct:dmsg
+mlen	dyn_message.h	/^    uint32_t             mlen;            \/* message length *\/$/;"	m	struct:msg
+msg	dyn_message.h	/^struct msg {$/;"	s
+msg_clone	dyn_message.c	/^msg_clone(struct msg *src, struct mbuf *mbuf_start, struct msg *target)$/;"	f
+msg_coalesce_t	dyn_message.h	/^typedef void (*msg_coalesce_t)(struct msg *r);$/;"	t
+msg_deinit	dyn_message.c	/^msg_deinit(void)$/;"	f
+msg_dump	dyn_message.c	/^msg_dump(struct msg *msg)$/;"	f
+msg_empty	dyn_message.c	/^msg_empty(struct msg *msg)$/;"	f
+msg_fragment	dyn_message.c	/^msg_fragment(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_free	dyn_message.c	/^msg_free(struct msg *msg)$/;"	f	file:
+msg_from_rbe	dyn_message.c	/^msg_from_rbe(struct rbnode *node)$/;"	f	file:
+msg_get	dyn_message.c	/^msg_get(struct conn *conn, bool request, bool redis)$/;"	f
+msg_get_error	dyn_message.c	/^msg_get_error(bool redis, dyn_error_t dyn_err, err_t err)$/;"	f
+msg_id	dyn_message.c	/^static uint64_t msg_id;          \/* message id counter *\/$/;"	v	file:
+msg_init	dyn_message.c	/^msg_init(void)$/;"	f
+msg_parse	dyn_message.c	/^msg_parse(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_parse_result	dyn_message.h	/^typedef enum msg_parse_result {$/;"	g
+msg_parse_result_t	dyn_message.h	/^} msg_parse_result_t;$/;"	t	typeref:enum:msg_parse_result
+msg_parse_t	dyn_message.h	/^typedef void (*msg_parse_t)(struct msg *);$/;"	t
+msg_parsed	dyn_message.c	/^msg_parsed(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_post_splitcopy_t	dyn_message.h	/^typedef rstatus_t (*msg_post_splitcopy_t)(struct msg *);$/;"	t
+msg_put	dyn_message.c	/^msg_put(struct msg *msg)$/;"	f
+msg_recv	dyn_message.c	/^msg_recv(struct context *ctx, struct conn *conn)$/;"	f
+msg_recv_chain	dyn_message.c	/^msg_recv_chain(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_repair	dyn_message.c	/^msg_repair(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_send	dyn_message.c	/^msg_send(struct context *ctx, struct conn *conn)$/;"	f
+msg_send_chain	dyn_message.c	/^msg_send_chain(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_tmo_delete	dyn_message.c	/^msg_tmo_delete(struct msg *msg)$/;"	f
+msg_tmo_insert	dyn_message.c	/^msg_tmo_insert(struct msg *msg, struct conn *conn)$/;"	f
+msg_tmo_min	dyn_message.c	/^msg_tmo_min(void)$/;"	f
+msg_type	dyn_message.h	/^    uint8_t              msg_type;       \/* for special message types$/;"	m	struct:msg
+msg_type	dyn_message.h	/^typedef enum msg_type {$/;"	g
+msg_type_t	dyn_message.h	/^} msg_type_t;$/;"	t	typeref:enum:msg_type
+nalloc	dyn_array.h	/^    uint32_t nalloc; \/* # allocated element *\/$/;"	m	struct:array
+name	dyn_conf.h	/^    struct string      name;                  \/* pool name (root node) *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+name	dyn_conf.h	/^    struct string   name;        \/* name *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::string
+name	dyn_conf.h	/^    struct string   name;    \/* name *\/$/;"	m	struct:conf_listen	typeref:struct:conf_listen::string
+name	dyn_conf.h	/^    struct string name;$/;"	m	struct:command	typeref:struct:command::string
+name	dyn_gossip.h	/^	struct string      *name;                \/* pool name (ref in conf_pool) *\/$/;"	m	struct:gossip_node_pool	typeref:struct:gossip_node_pool::string
+name	dyn_gossip.h	/^    struct string      name;$/;"	m	struct:gossip_dc	typeref:struct:gossip_dc::string
+name	dyn_log.h	/^    char *name;  \/* log file name *\/$/;"	m	struct:logger
+name	dyn_ring_queue.h	/^    struct string      name;          \/* name  *\/$/;"	m	struct:node	typeref:struct:node::string
+name	dyn_server.h	/^    struct string      *name;$/;"	m	struct:datacenter	typeref:struct:datacenter::string
+name	dyn_server.h	/^    struct string      name;                 \/* pool name (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+name	dyn_server.h	/^    struct string      name;          \/* name (ref in conf_server) *\/$/;"	m	struct:server	typeref:struct:server::string
+name	dyn_stats.c	/^    char *name; \/* stats name *\/$/;"	m	struct:stats_desc	file:
+name	dyn_stats.h	/^    struct string name;         \/* name (ref) *\/$/;"	m	struct:stats_metric	typeref:struct:stats_metric::string
+name	dyn_stats.h	/^    struct string name;   \/* dnode server name (ref) *\/$/;"	m	struct:stats_dnode	typeref:struct:stats_dnode::string
+name	dyn_stats.h	/^    struct string name;   \/* pool name (ref) *\/$/;"	m	struct:stats_pool	typeref:struct:stats_pool::string
+name	dyn_stats.h	/^    struct string name;   \/* server name (ref) *\/$/;"	m	struct:stats_server	typeref:struct:stats_server::string
+narg	dyn_message.h	/^    uint32_t             narg;            \/* # arguments (redis) *\/$/;"	m	struct:msg
+narg_end	dyn_message.h	/^    uint8_t              *narg_end;       \/* narg end (redis) *\/$/;"	m	struct:msg
+narg_start	dyn_message.h	/^    uint8_t              *narg_start;     \/* narg start (redis) *\/$/;"	m	struct:msg
+ncontinuum	dyn_server.h	/^    uint32_t           ncontinuum;           \/* # continuum points *\/$/;"	m	struct:datacenter
+nelem	dyn_array.h	/^    uint32_t nelem;  \/* # element *\/$/;"	m	struct:array
+nerror	dyn_log.h	/^    int  nerror; \/* # log error *\/$/;"	m	struct:logger
+next	dyn_mbuf.h	/^    STAILQ_ENTRY(mbuf) next;    \/* next mbuf *\/$/;"	m	struct:mbuf
+next_rebuild	dyn_server.h	/^    int64_t            next_rebuild;         \/* next distribution rebuild time in usec *\/$/;"	m	struct:server_pool
+next_retry	dyn_ring_queue.h	/^    int64_t            next_retry;    \/* next retry time in usec *\/$/;"	m	struct:node
+next_retry	dyn_server.h	/^    int64_t            next_retry;    \/* next retry time in usec *\/$/;"	m	struct:server
+nfrag	dyn_message.h	/^    uint32_t             nfrag;           \/* # fragment *\/$/;"	m	struct:msg
+nfree_connq	dyn_connection.c	/^static uint32_t nfree_connq;       \/* # free conn q *\/$/;"	v	file:
+nfree_dmsgq	dyn_dnode_msg.c	/^static uint32_t nfree_dmsgq;      \/* # free msg q *\/$/;"	v	file:
+nfree_mbufq	dyn_mbuf.c	/^static uint32_t nfree_mbufq;   \/* # free mbuf *\/$/;"	v	file:
+nfree_msgq	dyn_message.c	/^static uint32_t nfree_msgq;      \/* # free msg q *\/$/;"	v	file:
+nlive_nodes	dyn_gossip.h	/^    uint32_t           nlive_nodes;      \/* # live nodes *\/$/;"	m	struct:gossip_dc
+nlive_server	dyn_gossip.h	/^    uint32_t           nlive_server;         \/* # live server *\/$/;"	m	struct:gossip_node_pool
+nlive_server	dyn_server.h	/^    uint32_t           nlive_server;         \/* # live server *\/$/;"	m	struct:server_pool
+nnodes	dyn_gossip.h	/^    uint32_t           nnodes;           \/* # total nodes *\/$/;"	m	struct:gossip_dc
+node	dyn_ring_queue.h	/^    struct node        *node;$/;"	m	struct:ring_message	typeref:struct:ring_message::node
+node	dyn_ring_queue.h	/^volatile struct node {$/;"	s
+node_copy	dyn_ring_queue.c	/^node_copy(const struct node *src, struct node *dst)$/;"	f
+node_deinit	dyn_ring_queue.c	/^node_deinit(struct node *node)$/;"	f
+node_init	dyn_ring_queue.c	/^node_init(struct node *node)$/;"	f
+nodes	dyn_gossip.h	/^    struct array       nodes;            \/* nodes *\/$/;"	m	struct:gossip_dc	typeref:struct:gossip_dc::array
+noreply	dyn_message.h	/^    unsigned             noreply:1;       \/* noreply? *\/$/;"	m	struct:msg
+ns_conn_q	dyn_server.h	/^    uint32_t           ns_conn_q;     \/* # server connection *\/$/;"	m	struct:server
+nserver_continuum	dyn_server.h	/^    uint32_t           nserver_continuum;    \/* # servers - live and dead on continuum (const) *\/$/;"	m	struct:datacenter
+null_array	dyn_array.h	38;"	d
+null_command	dyn_conf.h	158;"	d
+null_string	dyn_string.h	36;"	d
+offset	dyn_conf.h	/^    int           offset;$/;"	m	struct:command
+ok	dyn_stats.c	/^static struct string ok = string("OK");$/;"	v	typeref:struct:string	file:
+omsg_q	dyn_connection.h	/^    struct msg_tqh     omsg_q;        \/* outstanding request Q *\/$/;"	m	struct:conn	typeref:struct:conn::msg_tqh
+owner	dyn_connection.h	/^    void               *owner;        \/* connection owner - server_pool \/ server *\/$/;"	m	struct:conn
+owner	dyn_dnode_msg.h	/^    struct msg           *owner;$/;"	m	struct:dmsg	typeref:struct:dmsg::msg
+owner	dyn_message.h	/^    struct conn          *owner;          \/* message owner - client | server *\/$/;"	m	struct:msg	typeref:struct:msg::conn
+owner	dyn_ring.h	/^    struct server_pool *owner;        \/* owner pool *\/$/;"	m	struct:dyn_ring	typeref:struct:dyn_ring::server_pool
+owner	dyn_server.h	/^    struct server_pool *owner;        \/* owner pool *\/$/;"	m	struct:server	typeref:struct:server::server_pool
+p_conn	dyn_server.h	/^    struct conn        *p_conn;              \/* proxy connection (listener) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::conn
+parent	dyn_rbtree.h	/^    struct rbnode *parent;   \/* parent link *\/$/;"	m	struct:rbnode	typeref:struct:rbnode::rbnode
+parse_request	dyn_stats.c	/^static stats_cmd_t parse_request(int sd)$/;"	f	file:
+parse_seeds	dyn_gossip.c	/^parse_seeds(struct string *seeds, struct string *dc_name, struct string *region_name,$/;"	f	file:
+parsed	dyn_conf.h	/^    unsigned      parsed:1;         \/* parsed? *\/$/;"	m	struct:conf
+parser	dyn_conf.h	/^    yaml_parser_t parser;           \/* yaml parser *\/$/;"	m	struct:conf
+parser	dyn_message.h	/^    msg_parse_t          parser;          \/* message parser *\/$/;"	m	struct:msg
+peer	dyn_message.h	/^    struct msg           *peer;           \/* message peer *\/$/;"	m	struct:msg	typeref:struct:msg::msg
+peer_req_forward	dyn_request.c	/^peer_req_forward(struct context *ctx, struct conn *c_conn, struct conn *p_conn, struct msg *msg,$/;"	f	file:
+peers	dyn_server.h	/^    struct array       peers;$/;"	m	struct:server_pool	typeref:struct:server_pool::array
+pid	dyn_core.h	/^    pid_t           pid;                         \/* process id *\/$/;"	m	struct:instance
+pid_filename	dyn_core.h	/^    char            *pid_filename;               \/* pid filename *\/$/;"	m	struct:instance
+pidfile	dyn_core.h	/^    unsigned        pidfile:1;                   \/* pid file created? *\/$/;"	m	struct:instance
+pname	dyn_conf.h	/^    struct string   pname;       \/* server: as "name:port:weight" *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::string
+pname	dyn_conf.h	/^    struct string   pname;   \/* listen: as "name:port" *\/$/;"	m	struct:conf_listen	typeref:struct:conf_listen::string
+pname	dyn_ring_queue.h	/^    struct string      pname;         \/* name:port *\/$/;"	m	struct:node	typeref:struct:node::string
+pname	dyn_server.h	/^    struct string      pname;         \/* name:port:weight (ref in conf_server) *\/$/;"	m	struct:server	typeref:struct:server::string
+pool	dyn_conf.h	/^    struct array  pool;             \/* conf_pool[] (parsed pools) *\/$/;"	m	struct:conf	typeref:struct:conf::array
+pool	dyn_core.h	/^    struct array       pool;        \/* server_pool[] *\/$/;"	m	struct:context	typeref:struct:context::array
+port	dyn_conf.h	/^    int             port;        \/* port *\/$/;"	m	struct:conf_server
+port	dyn_conf.h	/^    int             port;    \/* port *\/$/;"	m	struct:conf_listen
+port	dyn_ring_queue.h	/^    int                port;          \/* port *\/$/;"	m	struct:node
+port	dyn_server.h	/^    uint16_t           port;                 \/* port *\/$/;"	m	struct:server_pool
+port	dyn_server.h	/^    uint16_t           port;          \/* port *\/$/;"	m	struct:server
+port	dyn_stats.h	/^    uint16_t            port;           \/* stats monitoring port *\/$/;"	m	struct:stats
+pos	dyn_mbuf.h	/^    uint8_t            *pos;    \/* read marker *\/$/;"	m	struct:mbuf
+pos	dyn_message.h	/^    uint8_t              *pos;            \/* parser position marker *\/$/;"	m	struct:msg
+post_cb	dyn_ring_queue.h	/^	void*         post_cb;$/;"	m	struct:stat_message
+post_coalesce	dyn_message.h	/^    msg_coalesce_t       post_coalesce;   \/* message post-coalesce *\/$/;"	m	struct:msg
+post_splitcopy	dyn_message.h	/^    msg_post_splitcopy_t post_splitcopy;  \/* message post-split copy *\/$/;"	m	struct:msg
+pre_coalesce	dyn_message.h	/^    msg_coalesce_t       pre_coalesce;    \/* message pre-coalesce *\/$/;"	m	struct:msg
+pre_splitcopy	dyn_message.h	/^    mbuf_copy_t          pre_splitcopy;   \/* message pre-split copy *\/$/;"	m	struct:msg
+preconnect	dyn_conf.h	/^    int                preconnect;            \/* preconnect: *\/$/;"	m	struct:conf_pool
+preconnect	dyn_server.h	/^    unsigned           preconnect:1;         \/* preconnect? *\/$/;"	m	struct:server_pool
+prevfile	dyn_queue.h	/^    char *prevfile;$/;"	m	struct:qm_trace
+prevline	dyn_queue.h	/^    int  prevline;$/;"	m	struct:qm_trace
+processed	dyn_server.h	/^    unsigned           processed:1;   \/* flag to indicate whether this has been processed *\/$/;"	m	struct:server
+proxy	dyn_connection.h	/^    unsigned           proxy:1;       \/* proxy? *\/$/;"	m	struct:conn
+proxy_accept	dyn_proxy.c	/^proxy_accept(struct context *ctx, struct conn *p)$/;"	f	file:
+proxy_close	dyn_proxy.c	/^proxy_close(struct context *ctx, struct conn *conn)$/;"	f
+proxy_deinit	dyn_proxy.c	/^proxy_deinit(struct context *ctx)$/;"	f
+proxy_each_deinit	dyn_proxy.c	/^proxy_each_deinit(void *elem, void *data)$/;"	f
+proxy_each_init	dyn_proxy.c	/^proxy_each_init(void *elem, void *data)$/;"	f
+proxy_init	dyn_proxy.c	/^proxy_init(struct context *ctx)$/;"	f
+proxy_listen	dyn_proxy.c	/^proxy_listen(struct context *ctx, struct conn *p)$/;"	f	file:
+proxy_recv	dyn_proxy.c	/^proxy_recv(struct context *ctx, struct conn *conn)$/;"	f
+proxy_ref	dyn_proxy.c	/^proxy_ref(struct conn *conn, void *owner)$/;"	f
+proxy_reuse	dyn_proxy.c	/^proxy_reuse(struct conn *p)$/;"	f	file:
+proxy_unref	dyn_proxy.c	/^proxy_unref(struct conn *conn)$/;"	f
+qm_trace	dyn_queue.h	/^struct qm_trace {$/;"	s
+quit	dyn_message.h	/^    unsigned             quit:1;          \/* quit request? *\/$/;"	m	struct:msg
+rbnode	dyn_rbtree.h	/^struct rbnode {$/;"	s
+rbtree	dyn_rbtree.h	/^struct rbtree {$/;"	s
+rbtree_black	dyn_rbtree.h	27;"	d
+rbtree_copy_color	dyn_rbtree.h	30;"	d
+rbtree_delete	dyn_rbtree.c	/^rbtree_delete(struct rbtree *tree, struct rbnode *node)$/;"	f
+rbtree_init	dyn_rbtree.c	/^rbtree_init(struct rbtree *tree, struct rbnode *node)$/;"	f
+rbtree_insert	dyn_rbtree.c	/^rbtree_insert(struct rbtree *tree, struct rbnode *node)$/;"	f
+rbtree_is_black	dyn_rbtree.h	29;"	d
+rbtree_is_red	dyn_rbtree.h	28;"	d
+rbtree_left_rotate	dyn_rbtree.c	/^rbtree_left_rotate(struct rbnode **root, struct rbnode *sentinel,$/;"	f	file:
+rbtree_min	dyn_rbtree.c	/^rbtree_min(struct rbtree *tree)$/;"	f
+rbtree_node_init	dyn_rbtree.c	/^rbtree_node_init(struct rbnode *node)$/;"	f
+rbtree_node_min	dyn_rbtree.c	/^rbtree_node_min(struct rbnode *node, struct rbnode *sentinel)$/;"	f	file:
+rbtree_red	dyn_rbtree.h	26;"	d
+rbtree_right_rotate	dyn_rbtree.c	/^rbtree_right_rotate(struct rbnode **root, struct rbnode *sentinel,$/;"	f	file:
+recv	dyn_connection.h	/^    conn_recv_t        recv;          \/* recv (read) handler *\/$/;"	m	struct:conn
+recv_active	dyn_connection.h	/^    unsigned           recv_active:1; \/* recv active? *\/$/;"	m	struct:conn
+recv_bytes	dyn_connection.h	/^    size_t             recv_bytes;    \/* received (read) bytes *\/$/;"	m	struct:conn
+recv_done	dyn_connection.h	/^    conn_recv_done_t   recv_done;     \/* read done handler *\/$/;"	m	struct:conn
+recv_next	dyn_connection.h	/^    conn_recv_next_t   recv_next;     \/* recv next message handler *\/$/;"	m	struct:conn
+recv_ready	dyn_connection.h	/^    unsigned           recv_ready:1;  \/* recv ready? *\/$/;"	m	struct:conn
+redis	dyn_conf.h	/^    int                redis;                 \/* redis: *\/$/;"	m	struct:conf_pool
+redis	dyn_connection.h	/^    unsigned           redis:1;       \/* redis? *\/$/;"	m	struct:conn
+redis	dyn_message.h	/^    unsigned             redis:1;         \/* redis? *\/$/;"	m	struct:msg
+redis	dyn_server.h	/^    unsigned           redis:1;              \/* redis? *\/$/;"	m	struct:server_pool
+ref	dyn_connection.h	/^    conn_ref_t         ref;           \/* connection reference handler *\/$/;"	m	struct:conn
+region	dyn_conf.h	/^    struct string      region;                \/* this node's region *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+region	dyn_conf.h	/^    struct string   region;      \/* peer node's region *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::string
+region	dyn_server.h	/^    struct string      region;               \/* server's region *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+region	dyn_server.h	/^    struct string      region;        \/* server's region *\/$/;"	m	struct:server	typeref:struct:server::string
+remote_req_forward	dyn_request.c	/^remote_req_forward(struct context *ctx, struct conn *c_conn, struct msg *msg, $/;"	f
+req_client_dequeue_omsgq	dyn_request.c	/^req_client_dequeue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_client_enqueue_omsgq	dyn_request.c	/^req_client_enqueue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_done	dyn_request.c	/^req_done(struct conn *conn, struct msg *msg)$/;"	f
+req_error	dyn_request.c	/^req_error(struct conn *conn, struct msg *msg)$/;"	f
+req_filter	dyn_request.c	/^req_filter(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+req_forward	dyn_request.c	/^req_forward(struct context *ctx, struct conn *c_conn, struct msg *msg)$/;"	f	file:
+req_forward_error	dyn_request.c	/^req_forward_error(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+req_forward_stats	dyn_request.c	/^req_forward_stats(struct context *ctx, struct server *server, struct msg *msg)$/;"	f	file:
+req_get	dyn_request.c	/^req_get(struct conn *conn)$/;"	f
+req_put	dyn_request.c	/^req_put(struct msg *msg)$/;"	f
+req_recv_done	dyn_request.c	/^req_recv_done(struct context *ctx, struct conn *conn, struct msg *msg,$/;"	f
+req_recv_next	dyn_request.c	/^req_recv_next(struct context *ctx, struct conn *conn, bool alloc)$/;"	f
+req_send_done	dyn_request.c	/^req_send_done(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_send_next	dyn_request.c	/^req_send_next(struct context *ctx, struct conn *conn)$/;"	f
+req_server_dequeue_imsgq	dyn_request.c	/^req_server_dequeue_imsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_server_dequeue_omsgq	dyn_request.c	/^req_server_dequeue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_server_enqueue_imsgq	dyn_request.c	/^req_server_enqueue_imsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_server_enqueue_omsgq	dyn_request.c	/^req_server_enqueue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+request	dyn_message.h	/^    unsigned             request:1;       \/* request? or response? *\/$/;"	m	struct:msg
+request_send_to_all_datacenters	dyn_request.c	/^request_send_to_all_datacenters(struct msg *msg) {$/;"	f	file:
+result	dyn_message.h	/^    msg_parse_result_t   result;          \/* message parsing result *\/$/;"	m	struct:msg
+right	dyn_rbtree.h	/^    struct rbnode *right;    \/* right link *\/$/;"	m	struct:rbnode	typeref:struct:rbnode::rbnode
+ring	dyn_server.h	/^    struct dyn_ring    ring;                 \/* ring info (shared with ring\/gossip)  *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::dyn_ring
+ring_message	dyn_ring_queue.h	/^volatile struct ring_message {$/;"	s
+ring_message_deinit	dyn_ring_queue.c	/^ring_message_deinit(struct ring_message *msg)$/;"	f
+ring_message_init	dyn_ring_queue.c	/^ring_message_init(struct ring_message *msg)$/;"	f
+ring_nodes	dyn_ring.h	/^    struct array      *ring_nodes; \/* array of ring_nodes currently known in the cluster  *\/$/;"	m	struct:dyn_ring	typeref:struct:dyn_ring::array
+rlen	dyn_message.h	/^    uint32_t             rlen;            \/* running length in parsing fsa (redis) *\/$/;"	m	struct:msg
+rmsg	dyn_connection.h	/^    struct msg         *rmsg;         \/* current message being rcvd *\/$/;"	m	struct:conn	typeref:struct:conn::msg
+rnarg	dyn_message.h	/^    uint32_t             rnarg;           \/* running # arg used by parsing fsa (redis) *\/$/;"	m	struct:msg
+root	dyn_rbtree.h	/^    struct rbnode *root;     \/* root node *\/$/;"	m	struct:rbtree	typeref:struct:rbtree::rbnode
+rsp_filter	dyn_response.c	/^rsp_filter(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+rsp_forward	dyn_response.c	/^rsp_forward(struct context *ctx, struct conn *s_conn, struct msg *msg)$/;"	f	file:
+rsp_forward_stats	dyn_response.c	/^rsp_forward_stats(struct context *ctx, struct server *server, struct msg *msg)$/;"	f	file:
+rsp_get	dyn_response.c	/^rsp_get(struct conn *conn)$/;"	f
+rsp_make_error	dyn_response.c	/^rsp_make_error(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+rsp_put	dyn_response.c	/^rsp_put(struct msg *msg)$/;"	f
+rsp_recv_done	dyn_response.c	/^rsp_recv_done(struct context *ctx, struct conn *conn, struct msg *msg,$/;"	f
+rsp_recv_next	dyn_response.c	/^rsp_recv_next(struct context *ctx, struct conn *conn, bool alloc)$/;"	f
+rsp_send_done	dyn_response.c	/^rsp_send_done(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+rsp_send_next	dyn_response.c	/^rsp_send_next(struct context *ctx, struct conn *conn)$/;"	f
+rstatus_t	dyn_core.h	/^typedef int rstatus_t; \/* return type *\/$/;"	t
+s_conn_q	dyn_server.h	/^    struct conn_tqh    s_conn_q;      \/* server connection q *\/$/;"	m	struct:server	typeref:struct:server::conn_tqh
+s_tqe	dyn_message.h	/^    TAILQ_ENTRY(msg)     s_tqe;           \/* link in server q *\/$/;"	m	struct:msg
+sd	dyn_connection.h	/^    int                sd;            \/* socket descriptor *\/$/;"	m	struct:conn
+sd	dyn_stats.h	/^    int                 sd;             \/* stats descriptor *\/$/;"	m	struct:stats
+secure_server_option	dyn_conf.h	/^    struct string      secure_server_option;$/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+seed_provider	dyn_server.h	/^    struct string      seed_provider;$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+seeds	dyn_server.h	/^    struct array       seeds;                \/*dyn seeds *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::array
+seeds_provider	dyn_gossip.h	/^    seeds_provider_t   seeds_provider;       \/* seeds provider *\/$/;"	m	struct:gossip_node_pool
+seeds_provider_t	dyn_gossip.h	/^typedef uint8_t (*seeds_provider_t)(struct context *, struct string *);$/;"	t
+send	dyn_connection.h	/^    conn_send_t        send;          \/* send (write) handler *\/$/;"	m	struct:conn
+send_active	dyn_connection.h	/^    unsigned           send_active:1; \/* send active? *\/$/;"	m	struct:conn
+send_bytes	dyn_connection.h	/^    size_t             send_bytes;    \/* sent (written) bytes *\/$/;"	m	struct:conn
+send_done	dyn_connection.h	/^    conn_send_done_t   send_done;     \/* write done handler *\/$/;"	m	struct:conn
+send_next	dyn_connection.h	/^    conn_send_next_t   send_next;     \/* write next message handler *\/$/;"	m	struct:conn
+send_ready	dyn_connection.h	/^    unsigned           send_ready:1;  \/* send ready? *\/$/;"	m	struct:conn
+sentinel	dyn_rbtree.h	/^    struct rbnode *sentinel; \/* nil node *\/$/;"	m	struct:rbtree	typeref:struct:rbtree::rbnode
+seq	dyn_conf.h	/^    unsigned      seq:1;            \/* sequence? *\/$/;"	m	struct:conf
+server	dyn_conf.h	/^    struct array       server;                \/* servers: conf_server array *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::array
+server	dyn_server.h	/^    struct array       server;               \/* server[] *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::array
+server	dyn_server.h	/^struct server {$/;"	s
+server	dyn_stats.h	/^    struct array  server; \/* stats_server[] *\/$/;"	m	struct:stats_pool	typeref:struct:stats_pool::array
+server_active	dyn_server.c	/^server_active(struct conn *conn)$/;"	f
+server_close	dyn_server.c	/^server_close(struct context *ctx, struct conn *conn)$/;"	f
+server_close_stats	dyn_server.c	/^server_close_stats(struct context *ctx, struct server *server, err_t err,$/;"	f	file:
+server_conn	dyn_server.c	/^server_conn(struct server *server)$/;"	f
+server_connect	dyn_server.c	/^server_connect(struct context *ctx, struct server *server, struct conn *conn)$/;"	f
+server_connected	dyn_server.c	/^server_connected(struct context *ctx, struct conn *conn)$/;"	f
+server_connections	dyn_conf.h	/^    int                server_connections;    \/* server_connections: *\/$/;"	m	struct:conf_pool
+server_connections	dyn_server.h	/^    uint32_t           server_connections;   \/* maximum # server connection *\/$/;"	m	struct:server_pool
+server_deinit	dyn_server.c	/^server_deinit(struct array *server)$/;"	f
+server_each_disconnect	dyn_server.c	/^server_each_disconnect(void *elem, void *data)$/;"	f	file:
+server_each_preconnect	dyn_server.c	/^server_each_preconnect(void *elem, void *data)$/;"	f	file:
+server_each_set_owner	dyn_server.c	/^server_each_set_owner(void *elem, void *data)$/;"	f	file:
+server_failure	dyn_server.c	/^server_failure(struct context *ctx, struct server *server)$/;"	f	file:
+server_failure_limit	dyn_conf.h	/^    int                server_failure_limit;  \/* server_failure_limit: *\/$/;"	m	struct:conf_pool
+server_failure_limit	dyn_server.h	/^    uint32_t           server_failure_limit; \/* server failure limit *\/$/;"	m	struct:server_pool
+server_get_datacenter	dyn_server.c	/^server_get_datacenter(struct server_pool *pool, struct string *dcname)$/;"	f
+server_init	dyn_server.c	/^server_init(struct array *servers, struct array *conf_server,$/;"	f
+server_ok	dyn_server.c	/^server_ok(struct context *ctx, struct conn *conn)$/;"	f
+server_pool	dyn_server.h	/^struct server_pool {$/;"	s
+server_pool_conn	dyn_server.c	/^server_pool_conn(struct context *ctx, struct server_pool *pool, uint8_t *key,$/;"	f
+server_pool_deinit	dyn_server.c	/^server_pool_deinit(struct array *server_pool)$/;"	f
+server_pool_disconnect	dyn_server.c	/^server_pool_disconnect(struct context *ctx)$/;"	f
+server_pool_each_disconnect	dyn_server.c	/^server_pool_each_disconnect(void *elem, void *data)$/;"	f	file:
+server_pool_each_preconnect	dyn_server.c	/^server_pool_each_preconnect(void *elem, void *data)$/;"	f	file:
+server_pool_each_run	dyn_server.c	/^server_pool_each_run(void *elem, void *data)$/;"	f	file:
+server_pool_each_set_owner	dyn_server.c	/^server_pool_each_set_owner(void *elem, void *data)$/;"	f	file:
+server_pool_init	dyn_server.c	/^server_pool_init(struct array *server_pool, struct array *conf_pool,$/;"	f
+server_pool_preconnect	dyn_server.c	/^server_pool_preconnect(struct context *ctx)$/;"	f
+server_pool_run	dyn_server.c	/^server_pool_run(struct server_pool *pool)$/;"	f
+server_pool_server	dyn_server.c	/^server_pool_server(struct server_pool *pool, uint8_t *key, uint32_t keylen)$/;"	f	file:
+server_pool_update	dyn_server.c	/^server_pool_update(struct server_pool *pool)$/;"	f	file:
+server_ref	dyn_server.c	/^server_ref(struct conn *conn, void *owner)$/;"	f
+server_retry_timeout	dyn_conf.h	/^    int                server_retry_timeout;  \/* server_retry_timeout: in msec *\/$/;"	m	struct:conf_pool
+server_retry_timeout	dyn_server.h	/^    int64_t            server_retry_timeout; \/* server retry timeout in usec *\/$/;"	m	struct:server_pool
+server_timeout	dyn_server.c	/^server_timeout(struct conn *conn)$/;"	f
+server_unref	dyn_server.c	/^server_unref(struct conn *conn)$/;"	f
+service	dyn_stats.h	/^    struct string       service;        \/* service *\/$/;"	m	struct:stats	typeref:struct:stats::string
+service_str	dyn_stats.h	/^    struct string       service_str;    \/* service string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+set	dyn_conf.h	/^    char          *(*set)(struct conf *cf, struct command *cmd, void *data);$/;"	m	struct:command
+shadow	dyn_stats.h	/^    struct array        shadow;         \/* stats_pool[] (b) *\/$/;"	m	struct:stats	typeref:struct:stats::array
+short_options	dynomite.c	/^static char short_options[] = "hVtdDv:o:c:s:i:a:p:m:";$/;"	v	file:
+show_help	dynomite.c	/^static int show_help;$/;"	v	file:
+show_version	dynomite.c	/^static int show_version;$/;"	v	file:
+signal	dyn_signal.h	/^struct signal {$/;"	s
+signal_deinit	dyn_signal.c	/^signal_deinit(void)$/;"	f
+signal_handler	dyn_signal.c	/^signal_handler(int signo)$/;"	f
+signal_init	dyn_signal.c	/^signal_init(void)$/;"	f
+signals	dyn_signal.c	/^static struct signal signals[] = {$/;"	v	typeref:struct:signal	file:
+signame	dyn_signal.h	/^    char *signame;$/;"	m	struct:signal
+signo	dyn_signal.h	/^    int  signo;$/;"	m	struct:signal
+size	dyn_array.h	/^    size_t   size;   \/* element size *\/$/;"	m	struct:array
+size	dyn_stats.h	/^    size_t   size;  \/* buffer alloc size *\/$/;"	m	struct:stats_buffer
+smsg	dyn_connection.h	/^    struct msg         *smsg;         \/* current message being sent *\/$/;"	m	struct:conn	typeref:struct:conn::msg
+sockinfo	dyn_util.h	/^struct sockinfo {$/;"	s
+sound	dyn_conf.h	/^    unsigned      sound:1;          \/* sound? *\/$/;"	m	struct:conf
+source	dyn_stats.h	/^    struct string       source;         \/* source *\/$/;"	m	struct:stats	typeref:struct:stats::string
+source_address	dyn_dnode_msg.h	/^    struct sockaddr      *source_address; \/* source ip *\/$/;"	m	struct:dmsg	typeref:struct:dmsg::sockaddr
+source_str	dyn_stats.h	/^    struct string       source_str;     \/* source string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+sp	dyn_ring_queue.h	/^	struct server_pool *sp;$/;"	m	struct:ring_message	typeref:struct:ring_message::server_pool
+start	dyn_mbuf.h	/^    uint8_t            *start;  \/* start of buffer (const) *\/$/;"	m	struct:mbuf
+start_ts	dyn_stats.h	/^    int64_t             start_ts;       \/* start timestamp of dynomite *\/$/;"	m	struct:stats
+stat_message	dyn_ring_queue.h	/^volatile struct stat_message {$/;"	s
+state	dyn_dnode_msg.c	/^} state;$/;"	v	typeref:enum:__anon1
+state	dyn_message.h	/^    int                  state;           \/* current parser state *\/$/;"	m	struct:msg
+stats	dyn_core.h	/^    struct stats       *stats;      \/* stats *\/$/;"	m	struct:context	typeref:struct:context::stats
+stats	dyn_stats.h	/^struct stats {$/;"	s
+stats_add_footer	dyn_stats.c	/^stats_add_footer(struct stats *st)$/;"	f	file:
+stats_add_header	dyn_stats.c	/^stats_add_header(struct stats *st)$/;"	f	file:
+stats_add_num	dyn_stats.c	/^stats_add_num(struct stats *st, struct string *key, int64_t val)$/;"	f	file:
+stats_add_string	dyn_stats.c	/^stats_add_string(struct stats *st, struct string *key, struct string *val)$/;"	f	file:
+stats_addr	dyn_core.h	/^    char            *stats_addr;                 \/* stats monitoring addr *\/$/;"	m	struct:instance
+stats_aggregate	dyn_stats.c	/^stats_aggregate(struct stats *st)$/;"	f	file:
+stats_aggregate_metric	dyn_stats.c	/^stats_aggregate_metric(struct array *dst, struct array *src)$/;"	f	file:
+stats_begin_nesting	dyn_stats.c	/^stats_begin_nesting(struct stats *st, struct string *key)$/;"	f	file:
+stats_buffer	dyn_stats.h	/^struct stats_buffer {$/;"	s
+stats_cmd	dyn_stats.h	/^typedef enum stats_cmd {$/;"	g
+stats_cmd_t	dyn_stats.h	/^} stats_cmd_t;$/;"	t	typeref:enum:stats_cmd
+stats_copy_metric	dyn_stats.c	/^stats_copy_metric(struct stats *st, struct array *metric)$/;"	f	file:
+stats_create	dyn_stats.c	/^stats_create(uint16_t stats_port, char *stats_ip, int stats_interval,$/;"	f
+stats_create_buf	dyn_stats.c	/^stats_create_buf(struct stats *st)$/;"	f	file:
+stats_desc	dyn_stats.c	/^struct stats_desc {$/;"	s	file:
+stats_describe	dyn_stats.c	/^stats_describe(void)$/;"	f
+stats_destroy	dyn_stats.c	/^stats_destroy(struct stats *st)$/;"	f
+stats_destroy_buf	dyn_stats.c	/^stats_destroy_buf(struct stats *st)$/;"	f	file:
+stats_dnode	dyn_stats.h	/^struct stats_dnode {$/;"	s
+stats_enabled	dyn_stats.h	249;"	d
+stats_end_nesting	dyn_stats.c	/^stats_end_nesting(struct stats *st)$/;"	f	file:
+stats_http_rsp	dyn_stats.c	/^stats_http_rsp(int sd, uint8_t *content, size_t len)$/;"	f	file:
+stats_interval	dyn_core.h	/^    int             stats_interval;              \/* stats aggregation interval *\/$/;"	m	struct:instance
+stats_listen	dyn_stats.c	/^stats_listen(struct stats *st)$/;"	f	file:
+stats_loop	dyn_stats.c	/^stats_loop(void *arg)$/;"	f	file:
+stats_loop_callback	dyn_stats.c	/^stats_loop_callback(void *arg1, void *arg2)$/;"	f	file:
+stats_make_rsp	dyn_stats.c	/^stats_make_rsp(struct stats *st)$/;"	f	file:
+stats_metric	dyn_stats.h	/^struct stats_metric {$/;"	s
+stats_metric_deinit	dyn_stats.c	/^stats_metric_deinit(struct array *metric)$/;"	f	file:
+stats_metric_init	dyn_stats.c	/^stats_metric_init(struct stats_metric *stm)$/;"	f	file:
+stats_metric_reset	dyn_stats.c	/^stats_metric_reset(struct array *stats_metric)$/;"	f	file:
+stats_msg_to_core	dyn_stats.c	/^stats_msg_to_core(stats_cmd_t cmd, void *cb, void *post_cb)$/;"	f	file:
+stats_pool	dyn_stats.h	/^struct stats_pool {$/;"	s
+stats_pool_codec	dyn_stats.c	/^static struct stats_metric stats_pool_codec[] = {$/;"	v	typeref:struct:stats_metric	file:
+stats_pool_decr	dyn_stats.h	182;"	d
+stats_pool_decr	dyn_stats.h	223;"	d
+stats_pool_decr_by	dyn_stats.h	190;"	d
+stats_pool_decr_by	dyn_stats.h	227;"	d
+stats_pool_desc	dyn_stats.c	/^static struct stats_desc stats_pool_desc[] = {$/;"	v	typeref:struct:stats_desc	file:
+stats_pool_field	dyn_stats.h	/^typedef enum stats_pool_field {$/;"	g
+stats_pool_field_t	dyn_stats.h	/^} stats_pool_field_t;$/;"	t	typeref:enum:stats_pool_field
+stats_pool_incr	dyn_stats.h	178;"	d
+stats_pool_incr	dyn_stats.h	221;"	d
+stats_pool_incr_by	dyn_stats.h	186;"	d
+stats_pool_incr_by	dyn_stats.h	225;"	d
+stats_pool_init	dyn_stats.c	/^stats_pool_init(struct stats_pool *stp, struct server_pool *sp)$/;"	f	file:
+stats_pool_map	dyn_stats.c	/^stats_pool_map(struct array *stats_pool, struct array *server_pool)$/;"	f	file:
+stats_pool_metric_init	dyn_stats.c	/^stats_pool_metric_init(struct array *stats_metric)$/;"	f	file:
+stats_pool_reset	dyn_stats.c	/^stats_pool_reset(struct array *stats_pool)$/;"	f	file:
+stats_pool_set_ts	dyn_stats.h	194;"	d
+stats_pool_to_metric	dyn_stats.c	/^stats_pool_to_metric(struct context *ctx, struct server_pool *pool,$/;"	f	file:
+stats_pool_unmap	dyn_stats.c	/^stats_pool_unmap(struct array *stats_pool)$/;"	f	file:
+stats_port	dyn_core.h	/^    uint16_t        stats_port;                  \/* stats monitoring port *\/$/;"	m	struct:instance
+stats_send_rsp	dyn_stats.c	/^stats_send_rsp(struct stats *st)$/;"	f	file:
+stats_server	dyn_stats.h	/^struct stats_server {$/;"	s
+stats_server_codec	dyn_stats.c	/^static struct stats_metric stats_server_codec[] = {$/;"	v	typeref:struct:stats_metric	file:
+stats_server_decr	dyn_stats.h	202;"	d
+stats_server_decr	dyn_stats.h	231;"	d
+stats_server_decr_by	dyn_stats.h	210;"	d
+stats_server_decr_by	dyn_stats.h	235;"	d
+stats_server_desc	dyn_stats.c	/^static struct stats_desc stats_server_desc[] = {$/;"	v	typeref:struct:stats_desc	file:
+stats_server_field	dyn_stats.h	/^typedef enum stats_server_field {$/;"	g
+stats_server_field_t	dyn_stats.h	/^} stats_server_field_t;$/;"	t	typeref:enum:stats_server_field
+stats_server_incr	dyn_stats.h	198;"	d
+stats_server_incr	dyn_stats.h	229;"	d
+stats_server_incr_by	dyn_stats.h	206;"	d
+stats_server_incr_by	dyn_stats.h	233;"	d
+stats_server_init	dyn_stats.c	/^stats_server_init(struct stats_server *sts, struct server *s)$/;"	f	file:
+stats_server_map	dyn_stats.c	/^stats_server_map(struct array *stats_server, struct array *server)$/;"	f	file:
+stats_server_metric_init	dyn_stats.c	/^stats_server_metric_init(struct stats_server *sts)$/;"	f	file:
+stats_server_set_ts	dyn_stats.h	214;"	d
+stats_server_to_metric	dyn_stats.c	/^stats_server_to_metric(struct context *ctx, struct server *server,$/;"	f	file:
+stats_server_unmap	dyn_stats.c	/^stats_server_unmap(struct array *stats_server)$/;"	f	file:
+stats_start_aggregator	dyn_stats.c	/^stats_start_aggregator(struct stats *st)$/;"	f	file:
+stats_stop_aggregator	dyn_stats.c	/^stats_stop_aggregator(struct stats *st)$/;"	f	file:
+stats_swap	dyn_stats.c	/^stats_swap(struct stats *st)$/;"	f
+stats_type	dyn_stats.h	/^typedef enum stats_type {$/;"	g
+stats_type_t	dyn_stats.h	/^} stats_type_t;$/;"	t	typeref:enum:stats_type
+status	dyn_ring_queue.h	/^    uint8_t            status;        \/* 0: down, 1: up, 2:unknown *\/$/;"	m	struct:node
+str	dyn_stats.h	/^        struct string str;     \/* store string value *\/$/;"	m	union:stats_metric::__anon6	typeref:struct:stats_metric::__anon6::string
+str10cmp	dyn_util.h	217;"	d
+str10cmp	dyn_util.h	248;"	d
+str10icmp	dyn_util.h	285;"	d
+str11cmp	dyn_util.h	221;"	d
+str11cmp	dyn_util.h	251;"	d
+str11icmp	dyn_util.h	289;"	d
+str12cmp	dyn_util.h	224;"	d
+str12cmp	dyn_util.h	254;"	d
+str12icmp	dyn_util.h	293;"	d
+str13icmp	dyn_util.h	297;"	d
+str14icmp	dyn_util.h	301;"	d
+str15icmp	dyn_util.h	305;"	d
+str16icmp	dyn_util.h	309;"	d
+str3icmp	dyn_util.h	259;"	d
+str4cmp	dyn_util.h	197;"	d
+str4cmp	dyn_util.h	230;"	d
+str4icmp	dyn_util.h	264;"	d
+str5cmp	dyn_util.h	200;"	d
+str5cmp	dyn_util.h	233;"	d
+str5icmp	dyn_util.h	267;"	d
+str6cmp	dyn_util.h	203;"	d
+str6cmp	dyn_util.h	236;"	d
+str6icmp	dyn_util.h	270;"	d
+str7cmp	dyn_util.h	207;"	d
+str7cmp	dyn_util.h	239;"	d
+str7icmp	dyn_util.h	273;"	d
+str8cmp	dyn_util.h	210;"	d
+str8cmp	dyn_util.h	242;"	d
+str8icmp	dyn_util.h	277;"	d
+str9cmp	dyn_util.h	214;"	d
+str9cmp	dyn_util.h	245;"	d
+str9icmp	dyn_util.h	281;"	d
+string	dyn_string.h	/^struct string {$/;"	s
+string	dyn_string.h	35;"	d
+string_compare	dyn_string.c	/^string_compare(const struct string *s1, const struct string *s2)$/;"	f
+string_copy	dyn_string.c	/^string_copy(struct string *dst, const uint8_t *src, uint32_t srclen)$/;"	f
+string_copy_c	dyn_string.c	/^rstatus_t string_copy_c(struct string *dst, const uint8_t *src)$/;"	f
+string_deinit	dyn_string.c	/^string_deinit(struct string *str)$/;"	f
+string_duplicate	dyn_string.c	/^string_duplicate(struct string *dst, const struct string *src)$/;"	f
+string_empty	dyn_string.c	/^string_empty(const struct string *str)$/;"	f
+string_init	dyn_string.c	/^string_init(struct string *str)$/;"	f
+string_set_raw	dyn_string.h	43;"	d
+string_set_text	dyn_string.h	38;"	d
+sum	dyn_stats.h	/^    struct array        sum;            \/* stats_pool[] (c = a + b) *\/$/;"	m	struct:stats	typeref:struct:stats::array
+swallow	dyn_message.h	/^    unsigned             swallow:1;       \/* swallow response? *\/$/;"	m	struct:msg
+test_conf	dynomite.c	/^static int test_conf;$/;"	v	file:
+tid	dyn_stats.h	/^    pthread_t           tid;            \/* stats aggregator thread *\/$/;"	m	struct:stats
+timeout	dyn_conf.h	/^    int                timeout;               \/* timeout: *\/$/;"	m	struct:conf_pool
+timeout	dyn_core.h	/^    int                timeout;     \/* timeout in msec *\/$/;"	m	struct:context
+timeout	dyn_server.h	/^    int                timeout;              \/* timeout in msec *\/$/;"	m	struct:server_pool
+timestamp	dyn_stats.h	/^        int64_t   timestamp;    \/* monotonic timestamp *\/$/;"	m	union:stats_metric::__anon6
+timestamp_str	dyn_stats.h	/^    struct string       timestamp_str;  \/* timestamp string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+tmo_rbe	dyn_message.h	/^    struct rbnode        tmo_rbe;         \/* entry in rbtree *\/$/;"	m	struct:msg	typeref:struct:msg::rbnode
+tmo_rbs	dyn_message.c	/^static struct rbnode tmo_rbs;    \/* timeout rbtree sentinel *\/$/;"	v	typeref:struct:rbnode	file:
+tmo_rbt	dyn_message.c	/^static struct rbtree tmo_rbt;    \/* timeout rbtree *\/$/;"	v	typeref:struct:rbtree	file:
+token	dyn_conf.h	/^    yaml_token_t  token;            \/* yaml token *\/$/;"	m	struct:conf
+token	dyn_message.h	/^    uint8_t              *token;          \/* token marker *\/$/;"	m	struct:msg
+token	dyn_server.h	/^    struct dyn_token *token;  \/* used in vnode\/dyn_token situations *\/$/;"	m	struct:continuum	typeref:struct:continuum::dyn_token
+tokens	dyn_conf.h	/^    struct array       tokens;                \/* this node's token: dyn_token array *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::array
+tokens	dyn_conf.h	/^    struct array    tokens;      \/* tokens for this server *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::array
+tokens	dyn_ring_queue.h	/^    struct array       tokens;        \/* array of dyn_tokens *\/$/;"	m	struct:node	typeref:struct:node::array
+tokens	dyn_server.h	/^    struct array       tokens;               \/* the DHT tokens for this server *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::array
+tokens	dyn_server.h	/^    struct array       tokens;        \/* DHT tokens this peer owns *\/$/;"	m	struct:server	typeref:struct:server::array
+type	dyn_dnode_msg.h	/^    dmsg_type_t          type;            \/* message type *\/$/;"	m	struct:dmsg
+type	dyn_dnode_msg.h	/^    uint8_t  type;   $/;"	m	struct:dval
+type	dyn_message.h	/^    msg_type_t           type;            \/* message type *\/$/;"	m	struct:msg
+type	dyn_stats.h	/^    stats_type_t  type;         \/* type *\/$/;"	m	struct:stats_metric
+un	dyn_util.h	/^        struct sockaddr_un  un;    \/* unix domain address *\/$/;"	m	union:sockinfo::__anon7	typeref:struct:sockinfo::__anon7::sockaddr_un
+unref	dyn_connection.h	/^    conn_unref_t       unref;         \/* connection unreference handler *\/$/;"	m	struct:conn
+updated	dyn_stats.h	/^    volatile int        updated;        \/* current (a) updated? *\/$/;"	m	struct:stats
+uptime_str	dyn_stats.h	/^    struct string       uptime_str;     \/* uptime string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+valid	dyn_conf.h	/^    unsigned           valid:1;               \/* valid? *\/$/;"	m	struct:conf_pool
+valid	dyn_conf.h	/^    unsigned        valid:1;     \/* valid? *\/$/;"	m	struct:conf_server
+valid	dyn_conf.h	/^    unsigned        valid:1; \/* valid? *\/$/;"	m	struct:conf_listen
+valid	dyn_conf.h	/^    unsigned      valid:1;          \/* valid? *\/$/;"	m	struct:conf
+valid_event	dyn_conf.h	/^    unsigned      valid_event:1;    \/* valid event? *\/$/;"	m	struct:conf
+valid_parser	dyn_conf.h	/^    unsigned      valid_parser:1;   \/* valid parser? *\/$/;"	m	struct:conf
+valid_token	dyn_conf.h	/^    unsigned      valid_token:1;    \/* valid token? *\/$/;"	m	struct:conf
+value	dyn_server.h	/^    uint32_t value;  \/* hash value, used by ketama *\/$/;"	m	struct:continuum
+value	dyn_stats.h	/^    } value;$/;"	m	struct:stats_metric	typeref:union:stats_metric::__anon6
+version	dyn_dnode_msg.h	/^    dmsg_version_t       version;         \/* version of the message sender *\/$/;"	m	struct:dmsg
+version	dyn_stats.h	/^    struct string       version;        \/* version *\/$/;"	m	struct:stats	typeref:struct:stats::string
+version_str	dyn_stats.h	/^    struct string       version_str;    \/* version string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+vlen	dyn_message.h	/^    uint32_t             vlen;            \/* value length (memcache) *\/$/;"	m	struct:msg
+weight	dyn_conf.h	/^    int             weight;      \/* weight - unused and no config parsing support *\/$/;"	m	struct:conf_server
+weight	dyn_server.h	/^    uint32_t           weight;        \/* weight *\/$/;"	m	struct:server

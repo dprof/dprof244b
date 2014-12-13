@@ -1,0 +1,14 @@
+dyn_o_mite:
+     listen: 10.41.19.223:9002
+#     env: network
+     datacenter: localdc
+     distribution: vnode
+     dyn_seed_provider: simple_provider
+#     rack: rack-v1
+     dyn_listen: 10.41.19.223:9001
+     tokens: '3101134286'
+     dyn_seeds:
+     - 10.36.44.50:9001:localrack:localdc:437425602
+     servers:
+     - localhost:6379:1
+     redis: true

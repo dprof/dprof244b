@@ -1,0 +1,20 @@
+dyn_o_mite:
+     datacenter: us-east-1
+     distribution: vnode
+     dyn_listen: 0.0.0.0:9101
+     dyn_seed_provider: simple_provider
+     dyn_seeds:
+     - corn21.stanford.edu:9101:rack-v1:us-east-1:1383429731
+     - corn23.stanford.edu:9101:rack-v2:us-east-1:1383429731
+     - corn24.stanford.edu:9101:rack-v2:us-east-1:3530913378
+     - corn25.stanford.edu:9101:rack-v0:us-east-1:3530913378
+     - corn26.stanford.edu:9101:rack-v1:us-east-1:3530913378
+     hash: murmur
+     listen: 0.0.0.0:9102
+     preconnect: true
+     servers:
+     - 127.0.0.1:6380:1
+     timeout: 30000
+     tokens: '1383429731'
+#     rack: rack-v0
+     redis: true

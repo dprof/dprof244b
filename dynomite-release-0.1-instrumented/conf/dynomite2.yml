@@ -1,0 +1,14 @@
+dyn_o_mite:
+     listen: corn21.stanford.edu:9102
+#     env: network
+     datacenter: localdc
+     distribution: vnode
+     dyn_seed_provider: simple_provider
+#     rack: rack-v1
+     dyn_listen: corn21.stanford.edu:9101
+     tokens: '437425602'
+     dyn_seeds:
+     - corn22.stanford.edu:9101:localrack:localdc:3101134286
+     servers:
+     - corn21.stanford.edu:6379:1
+     redis: true

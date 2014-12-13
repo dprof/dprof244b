@@ -1,0 +1,24 @@
+use demo;
+
+create table traces (
+traceid bigint PRIMARY KEY,
+span map<text,bigint>
+);
+
+
+cassandra@cqlsh:demo> describe tables
+
+foo  users  page_view_counts  blog_entry
+
+cassandra@cqlsh:demo> create table traces (
+        ... traceid bigint PRIMARY KEY,
+        ... span map<text,bigint>
+        ... );
+cassandra@cqlsh:demo> insert into traces (traceid, span)
+        ... VALUES (11263435, {'optype':2, 'bytes':3})
+        ... ;
+cassandra@cqlsh:demo> 
+
+
+
+

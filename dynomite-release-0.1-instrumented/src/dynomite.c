@@ -1,0 +1,594 @@
+/*
+ * Dynomite - A thin, distributed replication layer for multi non-distributed storages.
+ * Copyright (C) 2014 Netflix, Inc.
+ */ 
+
+/*
+ * twemproxy - A fast and lightweight proxy for memcached protocol.
+ * Copyright (C) 2011 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <signal.h>
+#include <getopt.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/utsname.h>
+
+#include "dyn_core.h"
+#include "dyn_conf.h"
+#include "dyn_signal.h"
+
+#define DN_CONF_PATH        "conf/dynomite.yml"
+
+#define DN_LOG_DEFAULT      LOG_NOTICE
+#define DN_LOG_MIN          LOG_EMERG
+#define DN_LOG_MAX          LOG_PVERB
+#define DN_LOG_PATH         NULL
+
+#define DN_STATS_PORT       STATS_PORT
+#define DN_STATS_ADDR       STATS_ADDR
+#define DN_STATS_INTERVAL   STATS_INTERVAL
+
+#define DN_PID_FILE         NULL
+
+#define DN_MBUF_SIZE        MBUF_SIZE
+#define DN_MBUF_MIN_SIZE    MBUF_MIN_SIZE
+#define DN_MBUF_MAX_SIZE    MBUF_MAX_SIZE
+
+static int show_help;
+static int show_version;
+static int test_conf;
+static int daemonize;
+static int describe_stats;
+
+static struct option long_options[] = {
+    { "help",           no_argument,        NULL,   'h' },
+    { "version",        no_argument,        NULL,   'V' },
+    { "test-conf",      no_argument,        NULL,   't' },
+    { "daemonize",      no_argument,        NULL,   'd' },
+    { "describe-stats", no_argument,        NULL,   'D' },
+    { "verbose",        required_argument,  NULL,   'v' },
+    { "output",         required_argument,  NULL,   'o' },
+    { "conf-file",      required_argument,  NULL,   'c' },
+    { "stats-port",     required_argument,  NULL,   's' },
+    { "stats-interval", required_argument,  NULL,   'i' },
+    { "stats-addr",     required_argument,  NULL,   'a' },
+    { "pid-file",       required_argument,  NULL,   'p' },
+    { "mbuf-size",      required_argument,  NULL,   'm' },
+    { "samling-size",      required_argument,  NULL,   'n' },
+    { NULL,             0,                  NULL,    0  }
+};
+
+static char short_options[] = "hVtdDv:o:c:s:i:a:p:m:n:";
+
+static rstatus_t
+dn_daemonize(int dump_core)
+{
+    rstatus_t status;
+    pid_t pid, sid;
+    int fd;
+
+    pid = fork();
+    switch (pid) {
+    case -1:
+        log_error("fork() failed: %s", strerror(errno));
+        return DN_ERROR;
+
+    case 0:
+        break;
+
+    default:
+        /* parent terminates */
+        _exit(0);
+    }
+
+    /* 1st child continues and becomes the session leader */
+
+    sid = setsid();
+    if (sid < 0) {
+        log_error("setsid() failed: %s", strerror(errno));
+        return DN_ERROR;
+    }
+
+    if (signal(SIGHUP, SIG_IGN) == SIG_ERR) {
+        log_error("signal(SIGHUP, SIG_IGN) failed: %s", strerror(errno));
+        return DN_ERROR;
+    }
+
+    pid = fork();
+    switch (pid) {
+    case -1:
+        log_error("fork() failed: %s", strerror(errno));
+        return DN_ERROR;
+
+    case 0:
+        break;
+
+    default:
+        /* 1st child terminates */
+        _exit(0);
+    }
+
+    /* 2nd child continues */
+
+    /* change working directory */
+    if (dump_core == 0) {
+        status = chdir("/");
+        if (status < 0) {
+            log_error("chdir(\"/\") failed: %s", strerror(errno));
+            return DN_ERROR;
+        }
+    }
+
+    /* clear file mode creation mask */
+    umask(0);
+
+    /* redirect stdin, stdout and stderr to "/dev/null" */
+
+    fd = open("/dev/null", O_RDWR);
+    if (fd < 0) {
+        log_error("open(\"/dev/null\") failed: %s", strerror(errno));
+        return DN_ERROR;
+    }
+
+    status = dup2(fd, STDIN_FILENO);
+    if (status < 0) {
+        log_error("dup2(%d, STDIN) failed: %s", fd, strerror(errno));
+        close(fd);
+        return DN_ERROR;
+    }
+
+    status = dup2(fd, STDOUT_FILENO);
+    if (status < 0) {
+        log_error("dup2(%d, STDOUT) failed: %s", fd, strerror(errno));
+        close(fd);
+        return DN_ERROR;
+    }
+
+    status = dup2(fd, STDERR_FILENO);
+    if (status < 0) {
+        log_error("dup2(%d, STDERR) failed: %s", fd, strerror(errno));
+        close(fd);
+        return DN_ERROR;
+    }
+
+    if (fd > STDERR_FILENO) {
+        status = close(fd);
+        if (status < 0) {
+            log_error("close(%d) failed: %s", fd, strerror(errno));
+            return DN_ERROR;
+        }
+    }
+
+    return DN_OK;
+}
+
+static void
+dn_print_run(struct instance *nci)
+{
+    int status;
+    struct utsname name;
+
+    status = uname(&name);
+    if (status < 0) {
+        loga("dynomite-%s started on pid %d", DN_VERSION_STRING, nci->pid);
+    } else {
+        loga("dynomite-%s built for %s %s %s started on pid %d",
+             DN_VERSION_STRING, name.sysname, name.release, name.machine,
+             nci->pid);
+    }
+
+    loga("run, rabbit run / dig that hole, forget the sun / "
+         "and when at last the work is done / don't sit down / "
+         "it's time to dig another one");
+}
+
+static void
+dn_print_done(void)
+{
+    loga("done, rabbit done");
+}
+
+static void
+dn_show_usage(void)
+{
+    log_stderr(
+        "Usage: dynomite [-?hVdDt] [-v verbosity level] [-o output file]" CRLF
+        "                  [-c conf file] [-s stats port] [-a stats addr]" CRLF
+        "                  [-i stats interval] [-p pid file] [-m mbuf size]" CRLF
+        "");
+    log_stderr(
+        "Options:" CRLF
+        "  -h, --help             : this help" CRLF
+        "  -V, --version          : show version and exit" CRLF
+        "  -t, --test-conf        : test configuration for syntax errors and exit" CRLF
+        "  -d, --daemonize        : run as a daemon" CRLF
+        "  -D, --describe-stats   : print stats description and exit");
+    log_stderr(
+        "  -v, --verbosity=N      : set logging level (default: %d, min: %d, max: %d)" CRLF
+        "  -o, --output=S         : set logging file (default: %s)" CRLF
+        "  -c, --conf-file=S      : set configuration file (default: %s)" CRLF
+        "  -s, --stats-port=N     : set stats monitoring port (default: %d)" CRLF
+        "  -a, --stats-addr=S     : set stats monitoring ip (default: %s)" CRLF
+        "  -i, --stats-interval=N : set stats aggregation interval in msec (default: %d msec)" CRLF
+        "  -p, --pid-file=S       : set pid file (default: %s)" CRLF
+        "  -m, --mbuf-size=N      : set size of mbuf chunk in bytes (default: %d bytes)" CRLF
+        "",
+        DN_LOG_DEFAULT, DN_LOG_MIN, DN_LOG_MAX,
+        DN_LOG_PATH != NULL ? DN_LOG_PATH : "stderr",
+        DN_CONF_PATH,
+        DN_STATS_PORT, DN_STATS_ADDR, DN_STATS_INTERVAL,
+        DN_PID_FILE != NULL ? DN_PID_FILE : "off",
+        DN_MBUF_SIZE);
+}
+
+static rstatus_t
+dn_create_pidfile(struct instance *nci)
+{
+    char pid[DN_UINTMAX_MAXLEN];
+    int fd, pid_len;
+    ssize_t n;
+
+    fd = open(nci->pid_filename, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+    if (fd < 0) {
+        log_error("opening pid file '%s' failed: %s", nci->pid_filename,
+                  strerror(errno));
+        return DN_ERROR;
+    }
+    nci->pidfile = 1;
+
+    pid_len = dn_snprintf(pid, DN_UINTMAX_MAXLEN, "%d", nci->pid);
+
+    n = dn_write(fd, pid, pid_len);
+    if (n < 0) {
+        log_error("write to pid file '%s' failed: %s", nci->pid_filename,
+                  strerror(errno));
+        return DN_ERROR;
+    }
+
+    close(fd);
+
+    return DN_OK;
+}
+
+static void
+dn_remove_pidfile(struct instance *nci)
+{
+    int status;
+
+    status = unlink(nci->pid_filename);
+    if (status < 0) {
+        log_error("unlink of pid file '%s' failed, ignored: %s",
+                  nci->pid_filename, strerror(errno));
+    }
+}
+
+static void
+dn_set_default_options(struct instance *nci)
+{
+    int status;
+
+    nci->ctx = NULL;
+
+    nci->log_level = DN_LOG_DEFAULT;
+    nci->log_filename = DN_LOG_PATH;
+
+    nci->conf_filename = DN_CONF_PATH;
+
+    nci->stats_port = DN_STATS_PORT;
+    nci->stats_addr = DN_STATS_ADDR;
+    nci->stats_interval = DN_STATS_INTERVAL;
+
+    status = dn_gethostname(nci->hostname, DN_MAXHOSTNAMELEN);
+    if (status < 0) {
+        log_warn("gethostname failed, ignored: %s", strerror(errno));
+        dn_snprintf(nci->hostname, DN_MAXHOSTNAMELEN, "unknown");
+    }
+    nci->hostname[DN_MAXHOSTNAMELEN - 1] = '\0';
+
+    nci->mbuf_chunk_size = DN_MBUF_SIZE;
+
+    nci->pid = (pid_t)-1;
+    nci->pid_filename = NULL;
+    nci->pidfile = 0;
+}
+
+static rstatus_t
+dn_get_options(int argc, char **argv, struct instance *nci)
+{
+    int c, value;
+   // char str[128];
+    opterr = 0;
+
+    for (;;) {
+        c = getopt_long(argc, argv, short_options, long_options, NULL);
+        if (c == -1) {
+            /* no more options */
+            break;
+        }
+
+        switch (c) {
+        case 'h':
+            show_version = 1;
+            show_help = 1;
+            break;
+
+        case 'V':
+            show_version = 1;
+            break;
+
+        case 't':
+            test_conf = 1;
+            nci->log_level = 11;
+            break;
+
+        case 'd':
+            daemonize = 1;
+            break;
+
+        case 'D':
+            describe_stats = 1;
+            show_version = 1;
+            break;
+
+        case 'v':
+            value = dn_atoi(optarg, strlen(optarg));
+            if (value < 0) {
+                log_stderr("dynomite: option -v requires a number");
+                return DN_ERROR;
+            }
+            nci->log_level = value;
+            break;
+
+        case 'o':
+            nci->log_filename = optarg;
+            break;
+
+        case 'c':
+            nci->conf_filename = optarg;
+            break;
+
+        case 's':
+            value = dn_atoi(optarg, strlen(optarg));
+            if (value < 0) {
+                log_stderr("dynomite: option -s requires a number");
+                return DN_ERROR;
+            }
+            if (!dn_valid_port(value)) {
+                log_stderr("dynomite: option -s value %d is not a valid "
+                           "port", value);
+                return DN_ERROR;
+            }
+
+            nci->stats_port = (uint16_t)value;
+            break;
+
+        case 'i':
+            value = dn_atoi(optarg, strlen(optarg));
+            if (value < 0) {
+                log_stderr("dynomite: option -i requires a number");
+                return DN_ERROR;
+            }
+
+            nci->stats_interval = value;
+            break;
+
+        case 'a':
+            nci->stats_addr = optarg;
+            break;
+
+        case 'p':
+            nci->pid_filename = optarg;
+            break;
+
+        case 'm':
+            value = dn_atoi(optarg, strlen(optarg));
+            if (value <= 0) {
+                log_stderr("dynomite: option -m requires a non-zero number");
+                return DN_ERROR;
+            }
+
+            if (value < DN_MBUF_MIN_SIZE || value > DN_MBUF_MAX_SIZE) {
+                log_stderr("dynomite: mbuf chunk size must be between %zu and"
+                           " %zu bytes", DN_MBUF_MIN_SIZE, DN_MBUF_MAX_SIZE);
+                return DN_ERROR;
+            }
+
+            nci->mbuf_chunk_size = (size_t)value;
+            break;
+	case 'n':
+	    sampling_freq = dn_atoi(optarg,strlen(optarg));
+	    loga("Sampling freq %d", sampling_freq);
+	    break; 
+        case '?':
+            switch (optopt) {
+            case 'o':
+            case 'c':
+            case 'p':
+                log_stderr("dynomite: option -%c requires a file name",
+                           optopt);
+                break;
+
+            case 'm':
+            case 'v':
+            case 's':
+            case 'i':
+                log_stderr("dynomite: option -%c requires a number", optopt);
+                break;
+
+            case 'a':
+                log_stderr("dynomite: option -%c requires a string", optopt);
+                break;
+
+            default:
+                log_stderr("dynomite: invalid option -- '%c'", optopt);
+                break;
+            }
+            return DN_ERROR;
+
+        default:
+            log_stderr("dynomite: invalid option -- '%c'", optopt);
+            return DN_ERROR;
+
+        }
+    }
+
+    return DN_OK;
+}
+
+/*
+ * Returns true if configuration file has a valid syntax, otherwise
+ * returns false
+ */
+static bool
+dn_test_conf(struct instance *nci)
+{
+    struct conf *cf;
+
+    cf = conf_create(nci->conf_filename);
+    if (cf == NULL) {
+        log_stderr("dynomite: configuration file '%s' syntax is invalid",
+                   nci->conf_filename);
+        return false;
+    }
+
+    conf_destroy(cf);
+
+    log_stderr("dynomite: configuration file '%s' syntax is ok",
+               nci->conf_filename);
+    return true;
+}
+
+static rstatus_t
+dn_pre_run(struct instance *nci)
+{
+    rstatus_t status;
+
+    status = log_init(nci->log_level, nci->log_filename);
+    if (status != DN_OK) {
+        return status;
+    }
+
+    if (daemonize) {
+        status = dn_daemonize(1);
+        if (status != DN_OK) {
+            return status;
+        }
+    }
+
+    nci->pid = getpid();
+
+    status = signal_init();
+    if (status != DN_OK) {
+        return status;
+    }
+
+    if (nci->pid_filename) {
+        status = dn_create_pidfile(nci);
+        if (status != DN_OK) {
+            return status;
+        }
+    }
+
+    dn_print_run(nci);
+
+    return DN_OK;
+}
+
+static void
+dn_post_run(struct instance *nci)
+{
+    if (nci->pidfile) {
+        dn_remove_pidfile(nci);
+    }
+
+    signal_deinit();
+
+    dn_print_done();
+
+    log_deinit();
+}
+
+static void
+dn_run(struct instance *nci)
+{
+    rstatus_t status;
+    struct context *ctx;
+
+    ctx = core_start(nci);
+    if (ctx == NULL) {
+        return;
+    }
+
+    /* run rabbit run */
+    for (;;) {
+        status = core_loop(ctx);
+        if (status != DN_OK) {
+            break;
+        }
+    }
+
+    core_stop(ctx);
+}
+
+int
+main(int argc, char **argv)
+{
+    rstatus_t status;
+    struct instance nci;
+
+    dn_set_default_options(&nci);
+
+    status = dn_get_options(argc, argv, &nci);
+    if (status != DN_OK) {
+        dn_show_usage();
+        exit(1);
+    }
+//    loga("sampling freq %d",sampling_freq);
+    if (show_version) {
+        log_stderr("This is dynomite-%s" CRLF, DN_VERSION_STRING);
+        if (show_help) {
+            dn_show_usage();
+        }
+
+        if (describe_stats) {
+            stats_describe();
+        }
+
+        exit(0);
+    }
+
+    if (test_conf) {
+        if (!dn_test_conf(&nci)) {
+            exit(1);
+        }
+        exit(0);
+    }
+
+    status = dn_pre_run(&nci);
+    if (status != DN_OK) {
+        dn_post_run(&nci);
+        exit(1);
+    }
+
+    dn_run(&nci);
+
+    dn_post_run(&nci);
+
+    exit(1);
+}

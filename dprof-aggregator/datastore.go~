@@ -1,0 +1,51 @@
+package main
+
+import (
+	"fmt"
+	"log"
+	"github.com/gocql"
+	"strings"
+)
+
+
+
+func DataStoreInit() *gocql.Session {
+
+	// connect to the cluster
+	cluster := gocql.NewCluster("192.168.1.22, 192.168.1.25, 192.168.1.45")
+	cluster.Keyspace = "demo"
+	cluster.Consistency = gocql.Quorum
+	session, _ := cluster.CreateSession()
+	return session
+	//defer session.Close()
+}
+
+
+func DataStoreRunCommand(commands string, session *gocql.Session) {
+	
+	//Extract one command at a time and 
+	cmdlist := strings.Fields(commands)
+	if len(cmdlist) < 3 {
+		return
+	}
+
+	//Construct Query: 
+	traceid:=cmdlist[0]
+	level:=cmdlist[1]
+	timestamp:=cmdlist[2]
+	src:=cmdlist[3]
+	assocstr := fmt.Sprintf("{'level':'%s', 'timestamp':'%s', 'src':'%s'}", level, timestamp, src);
+	if true {
+		fmt.Println("Query=", assocstr)
+	}
+
+	if err := session.Query(`INSERT INTO traces (traceid, span) VALUES (?, ?)`,
+		traceid,
+		assocstr).Exec(); err != nil {
+			log.Fatal(err)
+			fmt.Println("Error")
+		}
+	return
+}
+
+

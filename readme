@@ -1,0 +1,10 @@
+dprof_collector --> runs at remote nodes
+dprof_aggregator --> runs on aggregation nodes (colocated with cassandra)
+The dynomite release files are in dynomite-release-0.1-instrumented
+Specific files modified for the project are 
+src/proto/dyn_redis.c:1637    
+src/proto/dyn_redis.c:2066
+src/dyn_dnode_msg.c:345       
+src/dyn_dnode_msg.c:581 
+src/dyn_dnode_response.c:49
+
